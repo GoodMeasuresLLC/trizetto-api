@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:CORE="http://www.caqh.org/SOAP/WSDL/" xmlns:CORE-XSD="http://www.caqh.org/SOAP/WSDL/CORERule2.2.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CORE" targetNamespace="http://www.caqh.org/SOAP/WSDL/CORERule2.2.0.xsd">
+   <wsdl:types>
+      <xsd:schema elementFormDefault="qualified" targetNamespace="http://www.caqh.org/SOAP/WSDL/">
+         <xsd:import namespace="http://www.caqh.org/SOAP/WSDL/CORERule2.2.0.xsd" schemaLocation="CORERule2.2.0.xsd" />
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="RealTimeRequestMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeRealTimeRequest" />
+   </wsdl:message>
+   <wsdl:message name="RealTimeResponseMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeRealTimeResponse" />
+   </wsdl:message>
+   <wsdl:message name="BatchSubmissionMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchSubmission" />
+   </wsdl:message>
+   <wsdl:message name="BatchSubmissionResponseMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchSubmissionResponse" />
+   </wsdl:message>
+   <wsdl:message name="BatchSubmissionAckRetrievalRequestMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchSubmissionAckRetrievalRequest" />
+   </wsdl:message>
+   <wsdl:message name="BatchSubmissionAckRetrievalResponseMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchSubmissionAckRetrievalResponse" />
+   </wsdl:message>
+   <wsdl:message name="BatchResultsRetrievalRequestMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchResultsRetrievalRequest" />
+   </wsdl:message>
+   <wsdl:message name="BatchResultsRetrievalResponseMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchResultsRetrievalResponse" />
+   </wsdl:message>
+   <wsdl:message name="BatchResultsAckSubmissionMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchResultsAckSubmission" />
+   </wsdl:message>
+   <wsdl:message name="BatchResultsAckSubmissionResponseMessage">
+      <wsdl:part name="body" element="CORE-XSD:COREEnvelopeBatchResultsAckSubmissionResponse" />
+   </wsdl:message>
+   <wsdl:portType name="CORETransactions">
+      <wsdl:operation name="RealTimeTransaction">
+         <wsdl:input message="CORE:RealTimeRequestMessage" />
+         <wsdl:output message="CORE:RealTimeResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="BatchSubmitTransaction">
+         <wsdl:input message="CORE:BatchSubmissionMessage" />
+         <wsdl:output message="CORE:BatchSubmissionResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchSubmissionTransaction">
+         <wsdl:input message="CORE:BatchSubmissionMessage" />
+         <wsdl:output message="CORE:BatchSubmissionResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="BatchSubmitAckRetrievalTransaction">
+         <wsdl:input message="CORE:BatchSubmissionAckRetrievalRequestMessage" />
+         <wsdl:output message="CORE:BatchSubmissionAckRetrievalResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="BatchResultsRetrievalTransaction">
+         <wsdl:input message="CORE:BatchResultsRetrievalRequestMessage" />
+         <wsdl:output message="CORE:BatchResultsRetrievalResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="BatchResultsAckSubmitTransaction">
+         <wsdl:input message="CORE:BatchResultsAckSubmissionMessage" />
+         <wsdl:output message="CORE:BatchResultsAckSubmissionResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchRetrievalTransaction">
+         <wsdl:input message="CORE:BatchResultsRetrievalRequestMessage" />
+         <wsdl:output message="CORE:BatchResultsRetrievalResponseMessage" />
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchReceiptConfirmationTransaction">
+         <wsdl:input message="CORE:BatchResultsAckSubmissionMessage" />
+         <wsdl:output message="CORE:BatchResultsAckSubmissionResponseMessage" />
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="CoreSoapBinding" type="CORE:CORETransactions">
+      <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+      <wsdl:operation name="RealTimeTransaction">
+         <soap12:operation soapAction="RealTimeTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="BatchSubmitTransaction">
+         <soap12:operation soapAction="BatchSubmitTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchSubmissionTransaction">
+         <soap12:operation soapAction="GenericBatchSubmissionTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="BatchSubmitAckRetrievalTransaction">
+         <soap12:operation soapAction="BatchSubmitAckRetrievalTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="BatchResultsRetrievalTransaction">
+         <soap12:operation soapAction="BatchResultsRetrievalTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="BatchResultsAckSubmitTransaction">
+         <soap12:operation soapAction="BatchResultsAckSubmitTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchRetrievalTransaction">
+         <soap12:operation soapAction="GenericBatchRetrievalTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="GenericBatchReceiptConfirmationTransaction">
+         <soap12:operation soapAction="GenericBatchReceiptConfirmationTransaction" style="document" />
+         <wsdl:input>
+            <soap12:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap12:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="Core">
+      <wsdl:port name="CoreSoapPort" binding="CORE:CoreSoapBinding">
+         <soap12:address location="http://URL_OF_WEB_SERVICE" />
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

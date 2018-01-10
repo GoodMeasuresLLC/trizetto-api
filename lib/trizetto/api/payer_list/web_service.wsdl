@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://ws.gatewayedi.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://ws.gatewayedi.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://ws.gatewayedi.com/">
+      <s:element name="Ping">
+        <s:complexType />
+      </s:element>
+      <s:element name="PingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthSOAPHeader" type="tns:AuthSOAPHeader" />
+      <s:complexType name="AuthSOAPHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetXMLPayerList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetXMLPayerListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetXMLPayerListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDocLinks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDocLinksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDocLinksResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PingSoapIn">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="PingSoapOut">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="PingAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetXMLPayerListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetXMLPayerList" />
+  </wsdl:message>
+  <wsdl:message name="GetXMLPayerListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetXMLPayerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetXMLPayerListAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="getDocLinksSoapIn">
+    <wsdl:part name="parameters" element="tns:getDocLinks" />
+  </wsdl:message>
+  <wsdl:message name="getDocLinksSoapOut">
+    <wsdl:part name="parameters" element="tns:getDocLinksResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDocLinksAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:portType name="PayerListSoap">
+    <wsdl:operation name="Ping">
+      <wsdl:input message="tns:PingSoapIn" />
+      <wsdl:output message="tns:PingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetXMLPayerList">
+      <wsdl:input message="tns:GetXMLPayerListSoapIn" />
+      <wsdl:output message="tns:GetXMLPayerListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDocLinks">
+      <wsdl:input message="tns:getDocLinksSoapIn" />
+      <wsdl:output message="tns:getDocLinksSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PayerListSoap" type="tns:PayerListSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap:operation soapAction="https://ws.gatewayedi.com/Ping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:PingAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXMLPayerList">
+      <soap:operation soapAction="https://ws.gatewayedi.com/GetXMLPayerList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetXMLPayerListAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDocLinks">
+      <soap:operation soapAction="https://ws.gatewayedi.com/getDocLinks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:getDocLinksAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PayerListSoap12" type="tns:PayerListSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap12:operation soapAction="https://ws.gatewayedi.com/Ping" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:PingAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXMLPayerList">
+      <soap12:operation soapAction="https://ws.gatewayedi.com/GetXMLPayerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetXMLPayerListAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDocLinks">
+      <soap12:operation soapAction="https://ws.gatewayedi.com/getDocLinks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:getDocLinksAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PayerList">
+    <wsdl:port name="PayerListSoap" binding="tns:PayerListSoap">
+      <soap:address location="https://services.gatewayedi.com/PayerList/PayerList.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PayerListSoap12" binding="tns:PayerListSoap12">
+      <soap12:address location="https://services.gatewayedi.com/PayerList/PayerList.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

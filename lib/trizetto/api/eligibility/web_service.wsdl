@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="GatewayEDI.WebServices" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="GatewayEDI.WebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="GatewayEDI.WebServices">
+      <s:element name="DoInquiry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Inquiry" type="tns:WSEligibilityInquiry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSEligibilityInquiry">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Parameters" type="tns:ArrayOfMyNameValue" />
+          <s:element minOccurs="1" maxOccurs="1" name="ResponseDataType" type="tns:WSResponseDataType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfMyNameValue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MyNameValue" nillable="true" type="tns:MyNameValue" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MyNameValue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Value" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSResponseDataType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Xml" />
+          <s:enumeration value="RawPayerData" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="DoInquiryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DoInquiryResult" type="tns:WSEligibilityResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSEligibilityResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseAsRawString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseAsXml" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtraProcessingInfo" type="tns:ValidationFailureCollection" />
+          <s:element minOccurs="1" maxOccurs="1" name="SuccessCode" type="tns:SuccessCode" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginalInquiry" type="tns:WSEligibilityInquiry" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ValidationFailureCollection">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AllMessages" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Failures" type="tns:ArrayOfValidationFailure" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfValidationFailure">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ValidationFailure" nillable="true" type="tns:ValidationFailure" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ValidationFailure">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AffectedFields" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="SuccessCode">
+        <s:restriction base="s:string">
+          <s:enumeration value="Success" />
+          <s:enumeration value="ValidationFailure" />
+          <s:enumeration value="PayerTimeout" />
+          <s:enumeration value="PayerNotSupported" />
+          <s:enumeration value="SystemError" />
+          <s:enumeration value="PayerEnrollmentRequired" />
+          <s:enumeration value="ProviderEnrollmentRequired" />
+          <s:enumeration value="ProductRequired" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="AuthSOAPHeader" type="tns:AuthSOAPHeader" />
+      <s:complexType name="AuthSOAPHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="DoInquiryByX12Data">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Inquiry" type="tns:WSX12EligibilityInquiry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSX12EligibilityInquiry">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="X12Input" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GediPayerID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ResponseDataType" type="tns:WSResponseDataType" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DoInquiryByX12DataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DoInquiryByX12DataResult" type="tns:WSX12EligibilityResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSX12EligibilityResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseAsRawString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseAsXml" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtraProcessingInfo" type="tns:ValidationFailureCollection" />
+          <s:element minOccurs="1" maxOccurs="1" name="SuccessCode" type="tns:SuccessCode" />
+          <s:element minOccurs="0" maxOccurs="1" name="OriginalInquiry" type="tns:WSX12EligibilityInquiry" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DoInquiryByX12DataWith271Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Inquiry" type="tns:WSX12EligibilityInquiry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoInquiryByX12DataWith271ResponseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DoInquiryByX12DataWith271ResponseResult" type="tns:WSX12EligibilityResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DoInquirySoapIn">
+    <wsdl:part name="parameters" element="tns:DoInquiry" />
+  </wsdl:message>
+  <wsdl:message name="DoInquirySoapOut">
+    <wsdl:part name="parameters" element="tns:DoInquiryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataSoapIn">
+    <wsdl:part name="parameters" element="tns:DoInquiryByX12Data" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataSoapOut">
+    <wsdl:part name="parameters" element="tns:DoInquiryByX12DataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataWith271ResponseSoapIn">
+    <wsdl:part name="parameters" element="tns:DoInquiryByX12DataWith271Response" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataWith271ResponseSoapOut">
+    <wsdl:part name="parameters" element="tns:DoInquiryByX12DataWith271ResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoInquiryByX12DataWith271ResponseAuthSOAPHeader">
+    <wsdl:part name="AuthSOAPHeader" element="tns:AuthSOAPHeader" />
+  </wsdl:message>
+  <wsdl:portType name="EligibilitySoap">
+    <wsdl:operation name="DoInquiry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes an eligibility lookup with an external payer by constructing an EDI transaction from the key/value pairs received.</wsdl:documentation>
+      <wsdl:input message="tns:DoInquirySoapIn" />
+      <wsdl:output message="tns:DoInquirySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12Data">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes an eligibility lookup with an external payer using the information in the raw 270 request.</wsdl:documentation>
+      <wsdl:input message="tns:DoInquiryByX12DataSoapIn" />
+      <wsdl:output message="tns:DoInquiryByX12DataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12DataWith271Response">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Executes an eligibility lookup with an external payer using the information in the raw 270 request and returning a 271 response.</wsdl:documentation>
+      <wsdl:input message="tns:DoInquiryByX12DataWith271ResponseSoapIn" />
+      <wsdl:output message="tns:DoInquiryByX12DataWith271ResponseSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EligibilitySoap" type="tns:EligibilitySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoInquiry">
+      <soap:operation soapAction="GatewayEDI.WebServices/DoInquiry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DoInquiryAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12Data">
+      <soap:operation soapAction="GatewayEDI.WebServices/DoInquiryByX12Data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DoInquiryByX12DataAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12DataWith271Response">
+      <soap:operation soapAction="GatewayEDI.WebServices/DoInquiryByX12DataWith271Response" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DoInquiryByX12DataWith271ResponseAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EligibilitySoap12" type="tns:EligibilitySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoInquiry">
+      <soap12:operation soapAction="GatewayEDI.WebServices/DoInquiry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DoInquiryAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12Data">
+      <soap12:operation soapAction="GatewayEDI.WebServices/DoInquiryByX12Data" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DoInquiryByX12DataAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoInquiryByX12DataWith271Response">
+      <soap12:operation soapAction="GatewayEDI.WebServices/DoInquiryByX12DataWith271Response" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DoInquiryByX12DataWith271ResponseAuthSOAPHeader" part="AuthSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Eligibility">
+    <wsdl:port name="EligibilitySoap" binding="tns:EligibilitySoap">
+      <soap:address location="https://services.gatewayedi.com/eligibility/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EligibilitySoap12" binding="tns:EligibilitySoap12">
+      <soap12:address location="https://services.gatewayedi.com/eligibility/service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
