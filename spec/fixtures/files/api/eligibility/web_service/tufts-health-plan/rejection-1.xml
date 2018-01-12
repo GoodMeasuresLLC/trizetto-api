@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <informationcontact>Tufts Health Plan Provider Services</informationcontact>
+      <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+      <communicationnumber>8888842404</communicationnumber>
+    </contact-info>
+    <contact-info>
+      <informationcontact>Tufts Health Plan Medicare Preferred Customer Relations</informationcontact>
+      <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+      <communicationnumber>8002799022</communicationnumber>
+    </contact-info>
+    <transactionid>4c73cfe9b734466cab657841590e9cb</transactionid>
+    <payername>Tufts</payername>
+    <payerid>170558746</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>NEHEN TUFTS HEALTH PLAN</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <rejection>
+      <rejectreason>Patient Birth Date Does Not Match That for the Patient on the Database</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

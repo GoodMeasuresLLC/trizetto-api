@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <informationcontact>HARVARD PILGRIM HEALTH CARE</informationcontact>
+      <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+      <communicationnumber>8007084414</communicationnumber>
+    </contact-info>
+    <transactionid>9BA6D72407E441C694A047CB96226F</transactionid>
+    <payername>HARVARD PILGRIM HEALTH CARE</payername>
+    <payerid>04271</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>HARVARD PILGRIM</last>
+    </providername>
+    <npi>1427487917</npi>
+    <providersecondaryid>UNKNOWN NPI OR TIN</providersecondaryid>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>99999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>Plan Network Identification Number</subsupplementalid>
+      <grouppolicynum>99</grouppolicynum>
+      <plansponsorname>TORPHY INC</plansponsorname>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+    </date>
+    <patientname>
+      <first>MERTIE</first>
+      <middle>P</middle>
+      <last>BOYER</last>
+    </patientname>
+    <patientid>HP999999999</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19890408</date-of-birth>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Health Maintenance Organization (HMO)</insurancetype>
+      <insurancetypecode>HM</insurancetypecode>
+      <plancoveragedescription>ME HMO-Deductible Tiered Copay</plancoveragedescription>
+      <datequalifier>Eligibility</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>A6^A7^A8^AI^CE^CF^CG^CH^CI^CJ^MH</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>1^4^5^6^7^8^11^12^13^18^33^50^53^67^68^69^73^76^78^80^81^99^A2^AL^BG^BV^BZ^CO^UC</servicetypecode>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>51^52^86^88^B2^BW^BX^GF</servicetypecode>
+      <yes_no_response_code>No</yes_no_response_code>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>2^3^20^40^42^44^45^47^48^62^65^79^82^93^98^A0^A1^A3^AB^AG^BH^BY^NI</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Allergy</servicetype>
+      <servicetypecode>GY</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Allergy Injection</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>AD^AE^AF^PT</servicetypecode>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Rehabilitative</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>BT^BU</servicetypecode>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Routine</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>33^67^68^80^81^AL^BV^BZ^CO^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>51^52^86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>65^A1</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>76^BG</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>PCP/Select Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>3^20^82^93^98^A0^A3^BH^BY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>PCP/Select Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>76^BG</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>3^20^82^93^98^A0^A3^BH^BY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>B2^BW^BX^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 1</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>B2^BW^BX^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 2</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>B2^BW^BX^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 3</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>B2^BW^BX^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 4</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetype>Allergy</servicetype>
+      <servicetypecode>GY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Allergy Injection</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>AD^AE^AF^PT</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Rehabilitative</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>BT^BU</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Routine</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>4^5^6^7^11^12^13^18^50^53^69^73^78^99^A2</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetypecode>40^42^44^45^48^62^79^AB^AG^NI</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>33^AL</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>76^BG</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>PCP/Select Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>3^20^82^93^98^A0^A3^BH^BY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>PCP/Select Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>B2^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 3</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Allergy</servicetype>
+      <servicetypecode>GY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Allergy Injection</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>AD^AE^AF^PT</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Rehabilitative</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>76^BG</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>3^20^82^93^98^A0^A3^BH^BY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Specialist</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>B2^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 4</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>4^5^6^7^11^12^13^18^50^53^67^68^69^73^78^80^81^99^A2^BV^BZ^CO</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>40^42^44^45^48^62^65^79^A1^AB^AG^NI</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>BT^BU</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Routine</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>51^52^86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>200</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>B2^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>5</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 1</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>B2^GF</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>20</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 2</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>BW^BX</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>10</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 1</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>BW^BX</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>40</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 2</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>BW^BX</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>60</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 3</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>BW^BX</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>100</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>Tier 4</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetypecode>3^20^33^65^67^68^76^80^81^82^93^98^A0^A1^A3^AL^BG^BH^BV^BY^BZ^CO^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetypecode>51^52^86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Allergy</servicetype>
+      <servicetypecode>GY</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Allergy Injection</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetypecode>AD^AE^AF^PT</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Rehabilitative</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetypecode>BT^BU</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Routine</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>1500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1420.39</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Coverage Basis</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plancoveragedescription>Fully Insured</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>3200</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>3200</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>AD^AE^AF</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>40</quantity>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Rehabilitative Combined total for Physical, Occupational, Speech Therapy</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>AD^AE^AF</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>40</quantity>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Rehabilitative Combined total for Physical, Occupational, Speech Therapy</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>AG^AB</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Days</quantityqualifier>
+      <quantity>100</quantity>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Combined total for Skilled Nursing Care, Inpatient Rehab</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>AG^AB</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <quantityqualifier>Days</quantityqualifier>
+      <quantity>100</quantity>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Combined total for Skilled Nursing Care, Inpatient Rehab</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Vision (Optometry)</servicetype>
+      <servicetypecode>AL</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>1</quantity>
+      <yes_no_response_code>No</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Vision (Optometry)</servicetype>
+      <servicetypecode>AL</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>1</quantity>
+      <yes_no_response_code>No</yes_no_response_code>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetypecode>1^2^3^4^5^6^7^8^11^12^13^18^20^33^40^42^44^45^47^48^50^53^62^65^67^68^69^73^76^78^79^80^81^82^93^98^99^A0^A1^A2^A3^A6^A7^A8^AB^AG^AI^AL^BG^BH^BV^BY^BZ^CE^CF^CG^CH^CI^CJ^CO^MH^NI^UC</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetype>Allergy</servicetype>
+      <servicetypecode>GY</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Allergy Injection</message>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetype>Social Work</servicetype>
+      <servicetypecode>22</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Early Intervention</message>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetypecode>AD^AE^AF^PT</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Rehabilitative</message>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetypecode>BT^BU</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Routine</message>
+    </benefit>
+    <benefit>
+      <info>Primary Care Provider</info>
+      <benefitentity>
+        <entitycode>Primary Care Provider</entitycode>
+        <name>JULIUS</name>
+        <first>GROLLMAN</first>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1609858695</benefit_related_entity_id>
+        <benefit_related_entity_address_1>4101 TORRANCE BLVD</benefit_related_entity_address_1>
+        <benefit_related_entity_city>TORRANCE</benefit_related_entity_city>
+        <benefit_related_entity_state>CA</benefit_related_entity_state>
+        <benefit_related_entity_zip>90503</benefit_related_entity_zip>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>3103035750</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Contact Following Entity for Eligibility or Benefit Information</info>
+      <servicetypecode>MH^A6^A7^A8^AI^CE^CF^CG^CH^CI^CJ</servicetypecode>
+      <benefitentity>
+        <name>UNITED BEHAVIORAL HEALTH</name>
+        <identification_code_qualifier>Payor Identification</identification_code_qualifier>
+        <benefit_related_entity_id>87726</benefit_related_entity_id>
+        <benefit_related_entity_address_1>P.O. BOX 30602</benefit_related_entity_address_1>
+        <benefit_related_entity_city>SALT LAKE CITY</benefit_related_entity_city>
+        <benefit_related_entity_state>UT</benefit_related_entity_state>
+        <benefit_related_entity_zip>84130</benefit_related_entity_zip>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>8887774742</communicationnumber>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

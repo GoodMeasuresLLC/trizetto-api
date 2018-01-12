@@ -4,11 +4,11 @@ module Trizetto
 
       # Ruby wrapper for the PayerList WebService
       #
-      # See Also:
+      # <b>References</b>
       #
-      # - Service Documentation: https://mytools.gatewayedi.com/Help/documents/Eligibility/WS%20PayerList%20Vendor%20Toolkit.pdf
-      # - WSDL: https://services.gatewayedi.com/PayerList/PayerList.asmx?WSDL
-      # - Service Description: https://services.gatewayedi.com/PayerList/PayerList.asmx
+      # - {https://mytools.gatewayedi.com/Help/documents/Eligibility/WS%20PayerList%20Vendor%20Toolkit.pdf Service Documentation}
+      # - {https://services.gatewayedi.com/PayerList/PayerList.asmx?WSDL WSDL}
+      # - {https://services.gatewayedi.com/PayerList/PayerList.asmx Service Description}
       class WebService < Trizetto::Api::WebService
 
         def initialize(options = {})
@@ -20,8 +20,8 @@ module Trizetto
 
         # Tests to see if the service is up
         #
-        # See Also:
-        # - Service Description https://services.gatewayedi.com/PayerList/PayerList.asmx?op=Ping
+        # <b>References</b>
+        # - {https://services.gatewayedi.com/PayerList/PayerList.asmx?op=Ping Service Description }
         def ping
           @client.call(:ping, message: {})
         end
@@ -30,7 +30,7 @@ module Trizetto
         # servicing states and links to their enrollment documentation, if it exists.
         #
         # The service provides the following information for each payer
-        # Type – HCFA or UB.
+        # - Type – HCFA or UB.
         # - Payer ID – The Gateway EDI payer identification number.
         # - Payer Name – The payer name.
         # - Nation Wide – Yes or No.
@@ -43,7 +43,9 @@ module Trizetto
         # - Provider ID Required – Yes or No.
         # - NPI Enabled – Yes or No.
         # - Last Date Modified – Last date that payer information was modified.
-        # Note: You probably need to set a long timeout to make this call
+        #
+        # <b>Note</b>: You probably need to set a long timeout to make this call
+        # <b>Note</b>: I've never got this request to complete
         def payer_list
           @client.call(:get_xml_payer_list, message: {})
         end

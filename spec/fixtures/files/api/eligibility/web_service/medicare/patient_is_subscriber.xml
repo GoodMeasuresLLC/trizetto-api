@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>e905c2e7521f40398aab4564cde7c8</transactionid>
+    <payername>CMS</payername>
+    <payerid>CMS</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>MEDICARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Eligibility</datequalifier>
+      <date-of-service>20180116-20180116</date-of-service>
+    </date>
+    <patientname>
+      <first>FERNANDO</first>
+      <middle>P</middle>
+      <last>TOY</last>
+      <patientaddress>APT 734</patientaddress>
+      <patientaddress2>54131 JAIDA PLAZA</patientaddress2>
+      <patientcity>SOUTH OFELIA</patientcity>
+      <patientstate>MS</patientstate>
+      <patientzip>395452596</patientzip>
+    </patientname>
+    <patientid>999999999A</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19530718</date-of-birth>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Pharmacy</servicetype>
+      <servicetypecode>88</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>30^42^45^48^49^69^76^83^A5^A7^AG^BT^BU^BV</servicetypecode>
+      <insurancetype>Medicare Part A</insurancetype>
+      <insurancetypecode>MA</insurancetypecode>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20090801</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>30^2^23^24^25^26^27^28^3^33^36^37^38^39^40^42^50^51^52^53^67^69^73^76^83^86^98^A4^A6^A8^AI^AJ^AK^AL^BT^BU^BV^DM^UC</servicetypecode>
+      <insurancetype>Medicare Part B</insurancetype>
+      <insurancetypecode>MB</insurancetypecode>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20090801</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Qualified Medicare Beneficiary</insurancetype>
+      <insurancetypecode>QM</insurancetypecode>
+      <plancoveragedescription>Medicare Part B</plancoveragedescription>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Qualified Medicare Beneficiary</insurancetype>
+      <insurancetypecode>QM</insurancetypecode>
+      <plancoveragedescription>Medicare Part A</plancoveragedescription>
+      <time_period_qualifier>Episode</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Qualified Medicare Beneficiary</insurancetype>
+      <insurancetypecode>QM</insurancetypecode>
+      <plancoveragedescription>Medicare Part B</plancoveragedescription>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetypecode>41^54</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Other or Additional Payor</info>
+      <insurancetype>Qualified Medicare Beneficiary</insurancetype>
+      <insurancetypecode>QM</insurancetypecode>
+      <plancoveragedescription>WV QMB Plan</plancoveragedescription>
+      <datequalifier>Coordination of Benefits</datequalifier>
+      <date-of-service>20170901</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Other or Additional Payor</info>
+      <servicetype>Pharmacy</servicetype>
+      <servicetypecode>88</servicetypecode>
+      <insurancetype>Other</insurancetype>
+      <insurancetypecode>OT</insurancetypecode>
+      <subsupplementalid>Plan Number</subsupplementalid>
+      <grouppolicynum>H9999 099</grouppolicynum>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170901</date-of-service>
+      <benefitentity>
+        <name>HEALTH PLAN OF THE UPPER OHIO VALLEY</name>
+        <benefit_related_entity_address_1>1110 Main Street</benefit_related_entity_address_1>
+        <benefit_related_entity_city>Wheeling</benefit_related_entity_city>
+        <benefit_related_entity_state>WV</benefit_related_entity_state>
+        <benefit_related_entity_zip>26003</benefit_related_entity_zip>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>7406957622</communicationnumber>
+        <communicationnumberqualifier2>Uniform Resource Locator (URL)</communicationnumberqualifier2>
+        <communicationnumber2>www.healthplan.org</communicationnumber2>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Other or Additional Payor</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Health Maintenance Organization (HMO) - Medicare Risk</insurancetype>
+      <insurancetypecode>HN</insurancetypecode>
+      <subsupplementalid>Plan Number</subsupplementalid>
+      <grouppolicynum>H9999 099</grouppolicynum>
+      <datequalifier>Coordination of Benefits</datequalifier>
+      <date-of-service>20170901</date-of-service>
+      <message>MCO Bill Option Code - C</message>
+      <benefitentity>
+        <entitycode>Primary Payer</entitycode>
+        <name>HEALTH PLAN OF THE UPPER OHIO VALLEY</name>
+        <benefit_related_entity_address_1>1110 Main Street</benefit_related_entity_address_1>
+        <benefit_related_entity_city>Wheeling</benefit_related_entity_city>
+        <benefit_related_entity_state>WV</benefit_related_entity_state>
+        <benefit_related_entity_zip>26003</benefit_related_entity_zip>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>7406957622</communicationnumber>
+        <communicationnumberqualifier2>Uniform Resource Locator (URL)</communicationnumberqualifier2>
+        <communicationnumber2>www.healthplan.org</communicationnumber2>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

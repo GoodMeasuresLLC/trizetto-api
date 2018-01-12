@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+      <communicationnumber>WWW.UNITEDHEALTHCAREONLINE.COM</communicationnumber>
+    </contact-info>
+    <transactionid>09850016e7834b4e8dcc9e3c148313</transactionid>
+    <payername>UNITEDHEALTHCARE</payername>
+    <payerid>87726</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>UNITED HEALTH CARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>851370272</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>123456</grouppolicynum>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+    </date>
+    <patientname>
+      <first>Juliet</first>
+      <middle>F</middle>
+      <last>Rempel</last>
+      <patientaddress>675 D'Amore Rapid</patientaddress>
+      <patientcity>Port Rosario</patientcity>
+      <patientstate>CO</patientstate>
+      <patientzip>28071</patientzip>
+    </patientname>
+    <patientid>12345679</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19561211</date-of-birth>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <plancoveragedescription>CHOICE</plancoveragedescription>
+      <benefitentity>
+        <name>UNITEDHEALTHCARE</name>
+        <identification_code_qualifier>Payor Identification</identification_code_qualifier>
+        <benefit_related_entity_id>87726</benefit_related_entity_id>
+        <benefit_related_entity_address_1>P.O. BOX 30555</benefit_related_entity_address_1>
+        <benefit_related_entity_city>SALT LAKE CITY</benefit_related_entity_city>
+        <benefit_related_entity_state>UT</benefit_related_entity_state>
+        <benefit_related_entity_zip>841300555</benefit_related_entity_zip>
+        <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+        <communicationnumber>WWW.UNITEDHEALTHCAREONLINE.COM</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>1^33^47^48^50^86^98^AL^MH^PT^UC</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>1^33^47^48^50^86^98^AL^MH^PT^UC</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^UC^48^PT^33^98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^48^50^86^98^PT^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^UC^48^PT^33^98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>1</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <percent>1</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>PT^33</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician)</servicetype>
+      <servicetypecode>96</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>25</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>50</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>150</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physical Therapy</servicetype>
+      <servicetypecode>PT</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>25</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>15</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>25</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>35</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>150</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>UC^48^PT^33^98^86^50</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^PT</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>999999.99</benefitamount>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>60</quantity>
+      <message>LIMITATION COMBINED FOR IN AND OUT OF NETWORK</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^PT</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>999999.99</benefitamount>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>60</quantity>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+      <message>LIMITATION COMBINED FOR IN AND OUT OF NETWORK</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^PT</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>999999.99</benefitamount>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>60</quantity>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+      <message>LIMITATION COMBINED FOR IN AND OUT OF NETWORK</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^PT</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>999999.99</benefitamount>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>60</quantity>
+      <message>LIMITATION COMBINED FOR IN AND OUT OF NETWORK</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>1500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>15</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>2985</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>HIGHEST BENEFIT</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Year to Date</time_period_qualifier>
+      <benefitamount>15</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>1500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Commercial</insurancetype>
+      <insurancetypecode>C1</insurancetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>2985</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Health Care Facility</info>
+      <benefitentity>
+        <entitycode>Provider</entitycode>
+        <name>UNITED HEALTH CARE</name>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1427487917</benefit_related_entity_id>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

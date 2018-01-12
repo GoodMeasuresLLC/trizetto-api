@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages/>
+          <Failures/>
+        </ExtraProcessingInfo>
+        <SuccessCode>SystemError</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value/>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>1427487917</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value/>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value/>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value/>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>87726</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

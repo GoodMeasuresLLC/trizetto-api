@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>664e6f3d1cda417db9c487d8bf9698</transactionid>
+    <payername>CMS</payername>
+    <payerid>CMS</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>MEDICARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Eligibility</datequalifier>
+      <date-of-service>20180116-20180116</date-of-service>
+    </date>
+    <patientname>
+      <first>ALVENA</first>
+      <last>WHITE</last>
+    </patientname>
+    <patientid>00049999</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19891205</date-of-birth>
+    <rejection>
+      <rejectreason>Invalid/Missing Subscriber/Insured ID</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

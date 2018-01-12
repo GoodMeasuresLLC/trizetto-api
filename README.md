@@ -23,7 +23,14 @@ Or install it yourself as:
 ### Use the Eligibility Web Service with an XML payload to check eligibility in realtime
 
 This uses name/value pairs in a request and returns an XML docunment as a response.
-You can force this API to return an X12 document if you like pain.
+
+To simply check if the patient is covered by a health plan
+
+```ruby
+GENERAL_HEALTH_PLAN_COVERAGE_CODE = "30"
+response = client.do_inquiry({...})
+response.active_coverage_for?(GENERAL_HEALTH_PLAN_COVERAGE_CODE)  #=> true | false
+```
 
 ```ruby
 require 'trizetto/api'
@@ -33,12 +40,13 @@ Trizetto::Api.configure do |config|
   config.password = 'Super Top Secret'
 end
 
-
-client = Trizetto::Api::Eligibility::WebService.new({
-  pretty_print_xml: true,
-  log: true,
-  log_level: :debug,
+client = Trizetto::Api::Eligibility::WebService::Client.new({
+  # You probably don't want logging enable unless you are being very careful to protect PHI in logs
+  # pretty_print_xml: true,
+  # log: true,
+  # log_level: :debug,
 })
+
 response = client.do_inquiry({
   'ProviderLastName': 'BLUE CROSS BLUE SHIELD OF MASSACHUSETTS',
   'NPI':              'YOUR NPI HERE',
@@ -48,12 +56,43 @@ response = client.do_inquiry({
   'GediPayerId':      'N4222',
 })
 
-puts response.to_hash[:do_inquiry_response][:do_inquiry_result][:success_code]
+# Were there validation errors with the request?
+response.success?                                          # => false
+response.success_code                                      # => "ValidationFailure"
+response.errors.messages                                   # => ["Please enter InsuranceNum."]response.errors.validation_failures.first.affected_fields  # => ["InsuranceNum"]
+response.errors.validation_failures.first.message          # => "Please enter InsuranceNum."
 
-source = response.to_hash[:do_inquiry_response][:do_inquiry_result][:response_as_xml]
-puts Nokogiri::XML(source).to_xml
+
+# Did we successfully get back an eligibility response from the payer.
+response.success?                   # => true
+response.success_code               # => "Success"
+response.transaction_id             # => "c6eb40c5584f0496be3f3a48d0ddfd"
+response.payer_name                 # => "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS"
+response.active_coverage_for?("30") # => true
+
+# Was the response rejected? We got back an eligibility response, but probably the patient wasn't found
+response.success?                           # => true
+response.success_code                       # => "Success"
+response.active_coverage_for?("30")         # => false
+response.rejected?                          # => true
+response.rejectsions.count                  # => 1
+response.rejectsions.first.reason           # => "Patient Birth Date Does Not Match That for the Patient on the Database"
+response.rejectsions.first.follow_up_action # => "Please Correct and Resubmit"
+
+# What active insurance coverages of service_type_code=30 does this patient have?
+coverages = response.patient.benefits.select {|benefit| benefit.active_coverage? && benefit.service_type_codes.include?("30")}
+coverages.count                # => 2
+coverages.first.insurance_type # => "Preferred Provider Organization (PPO)"
+coverages.last.insurance_type  # => "Medicare Part A"
+coverages.first.messages       # => nil
+coverages.last.messages        # => ["BCBSMA IS PRIME"]
+
+# Find all the benefit information for service_type_code=30
+benefits = response.patient.benefits.select {|benefit| benefit.service_type_codes.include?("30")}
+
+benefits.map(&:info).uniq # => ["Active Coverage", "Deductible", "Coverage Basis", "Out of Pocket (Stop Loss)", "Services Restricted to Following Provider"]
+
 ```
-
 
 ### Use the CORE2 API with an X12 payload to check eligibility in realtime
 

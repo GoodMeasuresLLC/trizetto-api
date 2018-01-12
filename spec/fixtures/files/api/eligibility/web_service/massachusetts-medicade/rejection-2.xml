@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <informationcontact>MASSHEALTH CUSTOMER SERVICE</informationcontact>
+      <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+      <communicationnumber>edi@mahealth.net</communicationnumber>
+      <communicationnumberqualifier2>Telephone</communicationnumberqualifier2>
+      <communicationnumber2>8008412900</communicationnumber2>
+    </contact-info>
+    <transactionid>FDD55205E46C4897B6C78F816B9332</transactionid>
+    <payername>MASSHEALTH</payername>
+    <payerid>DMA7384</payerid>
+  </infosource>
+  <inforeceiver>
+    <rejection>
+      <rejectreason>Provider Not on File</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+    <providername>
+      <last>MASSACHUSETTS MEDICADE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>99999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname>
+      <first>ETHELYN</first>
+      <last>FEENEY</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19600905</date-of-birth>
+  </subscriber>
+</eligibilityresponse>

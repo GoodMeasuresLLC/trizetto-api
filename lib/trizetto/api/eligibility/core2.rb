@@ -11,10 +11,9 @@ module Trizetto
       #
       # As of right now, you have to generate the correct X12/271 payload.
       #
-      # See Also
+      # <b<References</b>
       #
-      # - Eligibility 270/271 Companion Guide: https://mytools.gatewayedi.com/webcontent/Eligibility_Companion_Guide.pdf
-      #
+      # - {https://mytools.gatewayedi.com/webcontent/Eligibility_Companion_Guide.pdf Eligibility 270/271 Companion Guide}
       class Core2
         def initialize(options={})
           @client = Savon.client({
@@ -55,20 +54,22 @@ module Trizetto
           }.merge(options))
         end
 
-
-        # TODO: Understand the X12 format and allow options to be passed in, then generate the X12 message
+        # Performs an eligiblity check using the CORE II Eligibility API via X12/270
+        #
+        # <b>TODO</b>
+        # - Understand the X12 format and allow options to be passed in, then generate the X12 message
         #
         def check_eligibility(options = {})
-        @client.call(:real_time_transaction, message: {
-          'PayloadType': 'X12_270_Request_005010X279A1',
-          'ProcessingMode': 'RealTime',
-          'PayloadID': SecureRandom.uuid,
-          'TimeStamp': Time.now.utc.xmlschema,
-          'SenderID': Trizetto::Api.configuration.username,
-          'ReceiverID': 'GATEWAY EDI',
-          'CORERuleVersion': '2.2.0',
-          'Payload': options[:payload]
-        });
+          @client.call(:real_time_transaction, message: {
+            'PayloadType': 'X12_270_Request_005010X279A1',
+            'ProcessingMode': 'RealTime',
+            'PayloadID': SecureRandom.uuid,
+            'TimeStamp': Time.now.utc.xmlschema,
+            'SenderID': Trizetto::Api.configuration.username,
+            'ReceiverID': 'GATEWAY EDI',
+            'CORERuleVersion': '2.2.0',
+            'Payload': options[:payload]
+          });
         end
       end
     end

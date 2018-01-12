@@ -1,0 +1,31 @@
+<eligibilityresponse>
+  <infosource>
+    <transactionid>9088846d232c44048cf190d55af712a</transactionid>
+    <payername>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</payername>
+    <payerid>700</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99TRIZETTO</trace_id>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <rejection>
+      <rejectreason>Subscriber/Insured Not Found</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+    <benefit>
+      <info>Benefit Disclaimer</info>
+      <message>WE COULD NOT IDENTIFY YOUR PATIENT AS A BCBSMA MEMBER. PLEASE ASK THE PATIENT FOR HIS/HER BCBS IDENTIFICATION CARD OR CALL 800-676-BLUE FOR BCBS PATIENT ELIGIBILITY INFORMATION</message>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

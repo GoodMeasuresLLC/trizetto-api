@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <!-- DOB Didn't match -->
+  <infosource>
+    <contact-info>
+      <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+      <communicationnumber>www.unitedhealthcareonline.com</communicationnumber>
+    </contact-info>
+    <transactionid>e7f7d2635d40482eb566d47400908e</transactionid>
+    <payername>UNITEDHEALTHCARE</payername>
+    <payerid>87726</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>UNITED HEALTH CARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>1ß2345679</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname>
+      <first>Juliet</first>
+      <last>Rempel</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19571211</date-of-birth>
+    <rejection>
+      <rejectreason>Invalid/Missing Subscriber/Insured Name</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+    <rejection>
+      <rejectreason>Patient Birth Date Does Not Match That for the Patient on the Database</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

@@ -1,0 +1,60 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages>
+            <string>Subscriber ID must be between 8 and 12 characters.</string>
+          </AllMessages>
+          <Failures>
+            <ValidationFailure>
+              <AffectedFields>
+                <string>InsuranceNum</string>
+              </AffectedFields>
+              <Message>Subscriber ID must be between 8 and 12 characters.</Message>
+            </ValidationFailure>
+          </Failures>
+        </ExtraProcessingInfo>
+        <SuccessCode>ValidationFailure</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value>MEDICARE</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>1427487917</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value>KEELY</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value>STEHR</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value>19940118</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredGender</Name>
+              <Value>F</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuranceNum</Name>
+              <Value>99999</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>00523</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

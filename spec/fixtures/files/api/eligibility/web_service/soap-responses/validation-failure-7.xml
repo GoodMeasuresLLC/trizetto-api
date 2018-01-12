@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages>
+            <string>The NPI submitted must be 10 numerical digits.</string>
+          </AllMessages>
+          <Failures>
+            <ValidationFailure>
+              <AffectedFields>
+                <string>NPI</string>
+              </AffectedFields>
+              <Message>The NPI submitted must be 10 numerical digits.</Message>
+            </ValidationFailure>
+          </Failures>
+        </ExtraProcessingInfo>
+        <SuccessCode>ValidationFailure</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value>United Health Care</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>asdf</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value>Mickey</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value>Mouse</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value>19281118</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>ProviderId</Name>
+              <Value>700</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>87726</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

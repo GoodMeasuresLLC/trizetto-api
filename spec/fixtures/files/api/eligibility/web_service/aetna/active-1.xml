@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>F6ED12DE9C654F5F86CDB4D04FA9D4</transactionid>
+    <payername>AETNA INC</payername>
+    <payerid>953402799</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>Good Measures  Inc.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>Plan Number</subsupplementalid>
+      <grouppolicynum>9999999</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>999999999999999</grouppolicynum>
+      <plansponsorname>PACOCHA, VANDERVORT AND ROOB</plansponsorname>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan Begin</datequalifier>
+      <date-of-service>20170901</date-of-service>
+    </date>
+    <date>
+      <datequalifier>Service</datequalifier>
+      <date-of-service>20180116</date-of-service>
+    </date>
+    <date>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20170901</date-of-service>
+    </date>
+    <patientname>
+      <first>CARLIE</first>
+      <last>JASKOLSKI</last>
+      <patientaddress>632 MANTE DRIVES</patientaddress>
+      <patientaddress2>APT 2X</patientaddress2>
+      <patientcity>SOUTH MURPHY</patientcity>
+      <patientstate>WI</patientstate>
+      <patientzip>38852</patientzip>
+    </patientname>
+    <patientid>W999999999</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19830107</date-of-birth>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Point of Service (POS)</insurancetype>
+      <insurancetypecode>PS</insurancetypecode>
+      <plancoveragedescription>Aetna Choice POS II</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetypecode>1^33^47^48^50^86^98^UC^AL^MH^88</servicetypecode>
+      <plancoveragedescription>Aetna Choice POS II</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Chiropractor Visit or Evaluation in Office</message>
+      <message>Lab Performed by Chiropractor in Office</message>
+      <message>Xray by Chiropractor in Office</message>
+      <message>Manipulation by Chiropractor in Office</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Occupational Therapy by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Physical Therapy by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Medical Ancillary,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Semi Private Room and Board,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Intensive Care Room and Board,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Urgent Care</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>GYN Visit when Performed in an Office</message>
+      <message>Specialist Visit or Evaluation when Performed in an Office</message>
+      <message>Primary Care Visit or Evaluation in Office</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <message>Emergency Room Physician</message>
+      <message>Emergency use of Emergency Room</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <percent>.4</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Chiropractor Visit or Evaluation in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Lab Performed by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Xray by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Manipulation by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Occupational Therapy by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Physical Therapy by Chiropractor in Office,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <percent>.4</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Semi Private Room and Board,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Intensive Care Room and Board,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Inpatient Medical Ancillary,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetypecode>50^UC</servicetypecode>
+      <percent>.4</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <percent>.4</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Urgent Care,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>.4</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>GYN Visit when Performed in an Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Specialist Visit or Evaluation when Performed in an Office,COINS APPLIES TO OUT OF POCKET</message>
+      <message>Primary Care Visit or Evaluation in Office,COINS APPLIES TO OUT OF POCKET</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <benefitamount>40</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Chiropractor Visit or Evaluation in Office,COPAY INCLUDED IN OOP</message>
+      <message>Lab Performed by Chiropractor in Office,COPAY INCLUDED IN OOP</message>
+      <message>Xray by Chiropractor in Office,COPAY INCLUDED IN OOP</message>
+      <message>Manipulation by Chiropractor in Office,COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Medical Ancillary</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>250</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Semi Private Room and Board,COPAY INCLUDED IN OOP,PER CONFINEMENT</message>
+      <message>Intensive Care Room and Board,COPAY INCLUDED IN OOP,PER CONFINEMENT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <benefitamount>40</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Urgent Care,COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitamount>40</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>GYN Visit when Performed in an Office,COPAY INCLUDED IN OOP</message>
+      <message>Specialist Visit or Evaluation when Performed in an Office,COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitamount>25</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Primary Care Visit or Evaluation in Office,COPAY INCLUDED IN OOP</message>
+      <message>Patient's Primary Care Physician</message>
+      <message>GYN Visit when Performed in an Office,COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <benefitamount>40</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <message>Occupational Therapy by Chiropractor in Office</message>
+      <message>Physical Therapy by Chiropractor in Office</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <message>Outpatient Surgery Facility</message>
+      <message>Outpatient Medical Ancillary</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <message>Emergency Room Physician</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <benefitamount>200</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <message>Emergency use of Emergency Room,COPAY INCLUDED IN OOP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Chiropractor Visit or Evaluation in Office</message>
+      <message>Lab Performed by Chiropractor in Office</message>
+      <message>Xray by Chiropractor in Office</message>
+      <message>Manipulation by Chiropractor in Office</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Semi Private Room and Board</message>
+      <message>Intensive Care Room and Board</message>
+      <message>Inpatient Medical Ancillary</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Outpatient Surgery at Hospital</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Urgent Care</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>GYN Visit when Performed in an Office</message>
+      <message>Specialist Visit or Evaluation when Performed in an Office</message>
+      <message>Primary Care Visit or Evaluation in Office</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Med Dent,All Other In-Network Providers,DED INCLUDED IN OOP,Occupational Therapy by Chiropractor in Office,Physical Therapy by Chiropractor in Office,Emergency use of Emergency Room,Outpatient Surgery Facility,Semi Private Room and Board</message>
+      <message>Intensive Care Room and Board,Medical Ancillary,Outpatient Medical Ancillary,Emergency Room Physician</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>Med Dent</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan Begin</datequalifier>
+      <date-of-service>20180101</date-of-service>
+      <message>Med Dent,DED INCLUDED IN OOP,Chiropractor Visit or Evaluation in Office,Lab Performed by Chiropractor in Office,Xray by Chiropractor in Office,Manipulation by Chiropractor in Office,Occupational Therapy by Chiropractor in Office</message>
+      <message>Physical Therapy by Chiropractor in Office,Emergency use of Emergency Room,Outpatient Surgery Facility,Semi Private Room and Board,Intensive Care Room and Board,Outpatient Surgery at Hospital,Inpatient Medical Ancillary,Outpatient Medical Ancillary</message>
+      <message>Emergency Room Physician,Urgent Care,GYN Visit when Performed in an Office,Specialist Visit or Evaluation when Performed in an Office,Primary Care Visit or Evaluation in Office</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>Med Dent</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <message>Plan Requires PreCert</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <message>Self Funded</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Chiropractor Visit or Evaluation in Office/Plan Ded Waived</message>
+      <message>Lab Performed by Chiropractor in Office/Plan Ded Waived</message>
+      <message>Xray by Chiropractor in Office/Plan Ded Waived</message>
+      <message>Manipulation by Chiropractor in Office/Plan Ded Waived</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetypecode>86^UC</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>Urgent Care/Plan Ded Waived</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>GYN Visit when Performed in an Office/Plan Ded Waived</message>
+      <message>Specialist Visit or Evaluation when Performed in an Office/Plan Ded Waived</message>
+      <message>Primary Care Visit or Evaluation in Office/Plan Ded Waived</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>60</benefitquantity>
+      <period_count_qualifier>Years</period_count_qualifier>
+      <period_count>1</period_count>
+      <message>SHRT TRM REHAB,Occupational Therapy by Chiropractor in Office,Physical Therapy by Chiropractor in Office,Manipulation by Chiropractor in Office</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>60</benefitquantity>
+      <period_count_qualifier>Remaining</period_count_qualifier>
+      <message>SHRT TRM REHAB</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetypecode>1^33^48^50^86^98^UC</servicetypecode>
+      <message>Plan includes NAP</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>All Other In-Network Providers</message>
+      <message>INT MED AND RX</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>3000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <benefitamount>4000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>INT MED AND RX</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>4000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Unlimited</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Lifetime</time_period_qualifier>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetype>Emergency Services</servicetype>
+      <servicetypecode>86</servicetypecode>
+      <message>Non Emergency use of Emergency Room/EXCLUSION</message>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <coveragelevel>Employee Only</coveragelevel>
+      <servicetypecode>86^UC</servicetypecode>
+      <message>Non Urgent Services at an Urgent Care Facility/EXCLUSION</message>
+    </benefit>
+    <benefit>
+      <info>Other Source of Data</info>
+      <benefitentity>
+        <name>Aetna</name>
+        <benefit_related_entity_address_1>PO Box 981106</benefit_related_entity_address_1>
+        <benefit_related_entity_city>El Paso</benefit_related_entity_city>
+        <benefit_related_entity_state>TX</benefit_related_entity_state>
+        <benefit_related_entity_zip>79998</benefit_related_entity_zip>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

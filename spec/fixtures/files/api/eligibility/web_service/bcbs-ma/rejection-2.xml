@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>fea37896977b468d9e5de214278079b</transactionid>
+    <payername>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</payername>
+    <payerid>700</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <subscribername/>
+    <subscriberid>123456789</subscriberid>
+    <rejection>
+      <rejectreason>Invalid/Missing Subscriber/Insured ID</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+  <dependent>
+    <trace_number>999999999</trace_number>
+    <trace_id>99TRIZETTO</trace_id>
+    <patientname>
+      <first>MINNIE</first>
+      <last>MOUSE</last>
+    </patientname>
+    <date-of-birth>19291118</date-of-birth>
+  </dependent>
+</eligibilityresponse>

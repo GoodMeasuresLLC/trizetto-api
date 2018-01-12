@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>dd0745a76448de817e797edbaa8fbd</transactionid>
+    <payername>AETNA INC</payername>
+    <payerid>953402799</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>Good Measures, Inc.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>854939978</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Service</datequalifier>
+      <date-of-service>20180116</date-of-service>
+    </date>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Male</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <rejection>
+      <rejectreason>Patient Birth Date Does Not Match That for the Patient on the Database</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

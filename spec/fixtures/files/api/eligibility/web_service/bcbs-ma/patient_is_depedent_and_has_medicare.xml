@@ -1,0 +1,573 @@
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <informationcontact>BCBSMA CLINICAL COORDINATION</informationcontact>
+      <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+      <communicationnumber>8003276716</communicationnumber>
+      <communicationnumberqualifier2>Facsimile</communicationnumberqualifier2>
+      <communicationnumber2>8882821321</communicationnumber2>
+    </contact-info>
+    <transactionid>fe147964937642788a50f2098be8843</transactionid>
+    <payername>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</payername>
+    <payerid>700</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>123456789</grouppolicynum>
+      <plansponsorname>ACME INC</plansponsorname>
+    </subscriberaddinfo>
+    <subscribername>
+      <first>Rocky</first>
+      <middle>D</middle>
+      <last>Brooklyn</last>
+      <subscriberaddress>5105 DAISHA MOUNTAINS</subscriberaddress>
+      <subscribercity>SOUTH MOSESPORT</subscribercity>
+      <subscriberstate>NE</subscriberstate>
+      <subscriberzip>30683</subscriberzip>
+    </subscribername>
+    <subscriberid>XXP123456789</subscriberid>
+  </subscriber>
+  <dependent>
+    <trace_number>999999999</trace_number>
+    <trace_id>99TRIZETTO</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>6P</subsupplementalid>
+      <grouppolicynum>123456789</grouppolicynum>
+      <plansponsorname>ACME INC</plansponsorname>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20160601-99991231</date-of-service>
+    </date>
+    <patientname>
+      <first>Mercedes</first>
+      <middle>J</middle>
+      <last>Brooklyn</last>
+      <patientaddress>453 McGlynn Roads</patientaddress>
+      <patientcity>North Nicolas</patientcity>
+      <patientstate>WI</patientstate>
+      <patientzip>52378</patientzip>
+    </patientname>
+    <sex>F</sex>
+    <date-of-birth>19661203</date-of-birth>
+    <relationship>
+      <insuredindicator>No</insuredindicator>
+      <relationshipcode>Spouse</relationshipcode>
+    </relationship>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Preferred Provider Organization (PPO)</insurancetype>
+      <insurancetypecode>PR</insurancetypecode>
+      <plancoveragedescription>PPO - PREFERRED BLUE PPO SAVER</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Medicare Part A</insurancetype>
+      <insurancetypecode>MA</insurancetypecode>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>19641217</date-of-service>
+      <message>BCBSMA IS PRIME</message>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>1^33^35^88^AL^MH^UC</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^50^98</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>MEDICAL CARE</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>47^48</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>GENERAL HOSPITAL</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>47^48</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>CHRONIC DISEASE HOSPITAL</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>OUTPATIENT MEDICAL CARE</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>51^52^86^UC</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>OFFICE, HEALTH CENTER AND HOSPITAL SERVICES</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>DIABETES MANAGEMENT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE (AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>DIABETES MANAGEMENT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>0</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT TESTS AND SCREENINGS</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>(AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>(AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>(AND AMOUNT ABOVE ALLOWED CHARGE)</message>
+      <message>ROUTINE ADULT TESTS AND SCREENINGS</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>33^50^98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>MEDICAL CARE</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>47^48</servicetypecode>
+      <time_period_qualifier>Admisson</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>GENERAL HOSPITAL</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>47^48</servicetypecode>
+      <time_period_qualifier>Admisson</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>CHRONIC DISEASE HOSPITAL</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>OUTPATIENT MEDICAL CARE</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>51^52^86^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>EMERGENCY ROOM SERVICES</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>51^52^86^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>AFTER DEDUCTIBLE</message>
+      <message>OFFICE, HEALTH CENTER AND HOSPITAL SERVICES</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>51^52^86^UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>250</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>AFTER IN-NETWORK DEDUCTIBLE</message>
+      <message>EMERGENCY ROOM SERVICES</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>DIABETES MANAGEMENT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT TESTS AND SCREENINGS</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>4000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+      <message>ACCUMULATES WITH OUT-OF-NETWORK AMOUNTS</message>
+      <message>DEDUCTIBLE DOES NOT APPLY TO MOST PREVENTIVE HEALTH SERVICES, INCLUDING PRESCRIPTION DRUGS CLASSIFIED AS PREVENTIVE DRUGS AND CERTAIN OTHER SERVICES AS NOTED.</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>4000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ACCUMULATES WITH OUT-OF-NETWORK AMOUNTS</message>
+      <message>DEDUCTIBLE DOES NOT APPLY TO MOST PREVENTIVE HEALTH SERVICES, INCLUDING PRESCRIPTION DRUGS CLASSIFIED AS PREVENTIVE DRUGS AND CERTAIN OTHER SERVICES AS NOTED.</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>7500</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-20181231</date-of-service>
+      <message>ACCUMULATES WITH IN-NETWORK AMOUNTS</message>
+      <message>DEDUCTIBLE DOES NOT APPLY TO MOST PREVENTIVE HEALTH SERVICES, INCLUDING PRESCRIPTION DRUGS CLASSIFIED AS PREVENTIVE DRUGS.</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>7500</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>ACCUMULATES WITH IN-NETWORK AMOUNTS</message>
+      <message>DEDUCTIBLE DOES NOT APPLY TO MOST PREVENTIVE HEALTH SERVICES, INCLUDING PRESCRIPTION DRUGS CLASSIFIED AS PREVENTIVE DRUGS.</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>DIABETES MANAGEMENT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE PEDIATRIC</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>No</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>ROUTINE ADULT TESTS AND SCREENINGS</message>
+    </benefit>
+    <benefit>
+      <info>Coverage Basis</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plancoveragedescription>FULLY INSURED</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <message>DIAGNOSTIC LAB, DIAGNOSTIC X-RAY</message>
+      <message>REFER TO LABS, X-RAYS AND OTHER TESTS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <message>SELF-INJECTABLE AND SPECIALTY DRUG EXCLUSION - OUTPATIENT</message>
+      <message>REFER TO PRESCRIPTION DRUGS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^98</servicetypecode>
+      <message>SELF-INJECTABLE AND SPECIALTY DRUG EXCLUSION APPLIES</message>
+      <message>REFER TO PRESCRIPTION DRUGS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <message>ROUTINE PEDIATRIC</message>
+      <message>ACCORDING TO AGE-BASED SCHEDULE</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>1</quantity>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>1</quantity>
+      <message>ROUTINE ADULT</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <message>ROUTINE ADULT TESTS AND SCREENINGS</message>
+      <message>REFER TO COVERED SERVICE DESCRIPTION</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>13100</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>BUT NO MORE THAN INDIVIDUAL AMOUNT PER MEMBER (ACCUMULATES WITH OUT-OF-NETWORK AMOUNTS)</message>
+      <message>CALCULATION INCLUDES DEDUCTIBLE, COPAYMENTS AND COINSURANCE FOR MEDICAL AND PRESCRIPTION DRUG BENEFITS.</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>13097.6</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>BUT NO MORE THAN INDIVIDUAL AMOUNT PER MEMBER (ACCUMULATES WITH OUT-OF-NETWORK AMOUNTS)</message>
+      <message>CALCULATION INCLUDES DEDUCTIBLE, COPAYMENTS AND COINSURANCE FOR MEDICAL AND PRESCRIPTION DRUG BENEFITS.</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>15000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>BUT NO MORE THAN INDIVIDUAL AMOUNT PER MEMBER (ACCUMULATES WITH IN-NETWORK AMOUNTS)</message>
+      <message>CALCULATION INCLUDES DEDUCTIBLE, COPAYMENTS AND COINSURANCE FOR MEDICAL AND PRESCRIPTION DRUG BENEFITS.</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>14997.6</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>BUT NO MORE THAN INDIVIDUAL AMOUNT PER MEMBER (ACCUMULATES WITH IN-NETWORK AMOUNTS)</message>
+      <message>CALCULATION INCLUDES DEDUCTIBLE, COPAYMENTS AND COINSURANCE FOR MEDICAL AND PRESCRIPTION DRUG BENEFITS.</message>
+    </benefit>
+    <benefit>
+      <info>Services Restricted to Following Provider</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>PPO PROVIDER NETWORK</message>
+    </benefit>
+    <benefit>
+      <info>Services Restricted to Following Provider</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>ANY LICENSED HEALTH CARE PROVIDER IN A COVERED PROVIDER CATEGORY</message>
+    </benefit>
+    <benefit>
+      <info>Benefit Disclaimer</info>
+      <message>UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBER'S STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED.</message>
+    </benefit>
+  </dependent>
+</eligibilityresponse>

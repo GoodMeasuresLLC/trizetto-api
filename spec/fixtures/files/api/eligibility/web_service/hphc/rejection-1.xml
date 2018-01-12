@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <informationcontact>HARVARD PILGRIM HEALTH CARE</informationcontact>
+      <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+      <communicationnumber>8007084414</communicationnumber>
+    </contact-info>
+    <transactionid>78A8DA95A07C47E8B3F871744568ED</transactionid>
+    <payername>HARVARD PILGRIM HEALTH CARE</payername>
+    <payerid>04271</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>HARVARD PILGRIM</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>99999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180116</date-of-service>
+    </date>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Male</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <rejection>
+      <rejectreason>Invalid/Missing Subscriber/Insured Name</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

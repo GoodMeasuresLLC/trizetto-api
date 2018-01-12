@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <!-- submitted with a wierd DOB (MMDDYYYY/11181928 instead of YYYYMMDD/19281118)-->
+  <infosource>
+    <contact-info>
+      <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+      <communicationnumber>www.unitedhealthcareonline.com</communicationnumber>
+    </contact-info>
+    <transactionid>00f8149b0e40e1803e8aeeab21754b</transactionid>
+    <payername>UNITEDHEALTHCARE</payername>
+    <payerid>87726</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>UNITED HEALTH CARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>851380932</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>11190728</date-of-birth>
+    <rejection>
+      <rejectreason>Unable to Respond at Current Time</rejectreason>
+      <followupaction>Resubmission Allowed</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

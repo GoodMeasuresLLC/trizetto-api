@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>ed4bef280c214f929723428a2c39b2</transactionid>
+    <payername>UNICARE</payername>
+    <payerid>10285</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES, LLC</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>99999999999</trace_number>
+    <trace_id>THYJHIKSRL</trace_id>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>Case Number</subsupplementalid>
+      <grouppolicynum>SS99</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>9999999999</grouppolicynum>
+      <plansponsorname>KUVALIS INC</plansponsorname>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Issue Number</subsupplementalid>
+      <grouppolicynum>TNM</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Prior Identifier Number</subsupplementalid>
+      <grouppolicynum>W99999999999</grouppolicynum>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180101-99991231</date-of-service>
+    </date>
+    <patientname>
+      <first>LUE</first>
+      <last>SCHULTZ</last>
+      <patientaddress>81811 ZIEMANN RIDGE</patientaddress>
+      <patientcity>WEST ROBBVILLE</patientcity>
+      <patientstate>TN</patientstate>
+      <patientzip>93064</patientzip>
+    </patientname>
+    <patientid>00999999999</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19770924</date-of-birth>
+    <relationship>
+      <insuredindicator>Yes</insuredindicator>
+      <relationshipcode>Self</relationshipcode>
+      <relationshiptypecode>Change</relationshiptypecode>
+      <relationshipreasoncode>Change in Identifying Data Elements</relationshipreasoncode>
+    </relationship>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Medicaid</insurancetype>
+      <insurancetypecode>MC</insurancetypecode>
+      <plancoveragedescription>MEDICAID WEST TENNESSEE</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>BZ^UC^1^51^52^86^98</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>MH^33^35^47^48^50</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>BZ^98</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>UC^51^52^86</servicetypecode>
+      <percent>0</percent>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <percent>0</percent>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>2</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>2</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Admisson</time_period_qualifier>
+      <benefitamount>35</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <time_period_qualifier>Admisson</time_period_qualifier>
+      <benefitamount>35</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>2</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <benefitquantityqualifier>Units</benefitquantityqualifier>
+      <benefitquantity>24</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>12</period_count>
+    </benefit>
+    <benefit>
+      <info>Non-Covered</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Primary Care Provider</info>
+      <datequalifier>Primary Care Provider</datequalifier>
+      <date-of-service>20180101-99991231</date-of-service>
+      <benefitentity>
+        <entitycode>Primary Care Provider</entitycode>
+        <name>AMANZE</name>
+        <first>NNAEMEKA</first>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1386692317</benefit_related_entity_id>
+        <benefit_related_entity_address_1>1300 MICCOSUKEE RD</benefit_related_entity_address_1>
+        <benefit_related_entity_city>TALLAHASSEE</benefit_related_entity_city>
+        <benefit_related_entity_state>FL</benefit_related_entity_state>
+        <benefit_related_entity_zip>323085054</benefit_related_entity_zip>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>8504314996</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Services Restricted to Following Provider</info>
+      <datequalifier>Primary Care Provider</datequalifier>
+      <date-of-service>20180101-99991231</date-of-service>
+      <benefitentity>
+        <entitycode>Independent Physicians Association (IPA)</entitycode>
+        <name>ROGAHN, BERGNAUM AND HOEGER</name>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Benefit Disclaimer</info>
+      <message>UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBERS ELIGIBILITY STATUS ON THE DATE OF SERVICE. FOR ANY QUESTIONS PLEASE CALL PHONE NUMBER ON BACK OF MEMBERS CARD.</message>
+    </benefit>
+    <benefit>
+      <info>Contact Following Entity for Eligibility or Benefit Information</info>
+      <servicetype>Pharmacy</servicetype>
+      <servicetypecode>88</servicetypecode>
+      <benefitentity>
+        <name>TN FFS MEDICAID</name>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>6051716135</communicationnumber>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

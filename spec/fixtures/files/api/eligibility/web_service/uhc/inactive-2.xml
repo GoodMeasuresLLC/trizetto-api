@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <contact-info>
+      <communicationnumberqualifier>Uniform Resource Locator (URL)</communicationnumberqualifier>
+      <communicationnumber>WWW.UNITEDHEALTHCAREONLINE.COM</communicationnumber>
+    </contact-info>
+    <transactionid>2837b29b5b4f74af25025d9ce9552e</transactionid>
+    <payername>UNITEDHEALTHCARE</payername>
+    <payerid>87726</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>UNITED HEALTH CARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>851507962</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+      <patientaddress>500 S BUENA VISTA ST</patientaddress>
+      <patientcity>BURBANK</patientcity>
+      <patientstate>CA</patientstate>
+      <patientzip>91521</patientzip>
+    </patientname>
+    <patientid>964219524</patientid>
+    <sex>Male</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <relationship>
+      <insuredindicator>Yes</insuredindicator>
+      <relationshipcode>Self</relationshipcode>
+      <relationshiptypecode>Change</relationshiptypecode>
+      <relationshipreasoncode>Change in Identifying Data Elements</relationshipreasoncode>
+    </relationship>
+    <benefit>
+      <info>Inactive</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+    </benefit>
+    <benefit>
+      <info>Health Care Facility</info>
+      <benefitentity>
+        <entitycode>Provider</entitycode>
+        <name>UNITED HEALTH CARE</name>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1427487917</benefit_related_entity_id>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

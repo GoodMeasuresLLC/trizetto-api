@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages>
+            <string>Name Value Parameters can not be empty</string>
+          </AllMessages>
+          <Failures>
+            <ValidationFailure>
+              <Message>Name Value Parameters can not be empty</Message>
+            </ValidationFailure>
+          </Failures>
+        </ExtraProcessingInfo>
+        <SuccessCode>ValidationFailure</SuccessCode>
+        <OriginalInquiry>
+          <Parameters/>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

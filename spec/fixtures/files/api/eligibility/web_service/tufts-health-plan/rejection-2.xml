@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>442e8493a6a44a588ad647c75addb9</transactionid>
+    <payername>Tufts Health Plan</payername>
+    <payerid>170558746</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES,</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <patientname/>
+    <patientid>N0999999999</patientid>
+    <rejection>
+      <rejectreason>Invalid/Missing Subscriber/Insured ID</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+    <benefit>
+      <info>Cannot Process</info>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

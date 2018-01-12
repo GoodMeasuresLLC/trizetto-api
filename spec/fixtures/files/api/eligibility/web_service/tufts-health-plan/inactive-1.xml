@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>e32c9e34e6974296838094aeed5465d</transactionid>
+    <payername>Tufts Health Plan</payername>
+    <payerid>170558746</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>TUFTS HEALTH PLAN</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20160101</date-of-service>
+    </date>
+    <date>
+      <datequalifier>Eligibility End</datequalifier>
+      <date-of-service>20160930</date-of-service>
+    </date>
+    <patientname>
+      <first>Emmitt</first>
+      <last>Gusikowski</last>
+      <patientaddress>462 Cicero Plains</patientaddress>
+      <patientcity>North Bethel</patientcity>
+      <patientstate>IL</patientstate>
+      <patientzip>79669</patientzip>
+    </patientname>
+    <patientid>N0199999999</patientid>
+    <sex>Male</sex>
+    <date-of-birth>19580925</date-of-birth>
+    <benefit>
+      <info>Inactive</info>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

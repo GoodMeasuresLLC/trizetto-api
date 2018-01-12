@@ -1,0 +1,32 @@
+<eligibilityresponse>
+  <infosource>
+    <transactionid>02e7cf81ff37485e89fe102a988faa</transactionid>
+    <payername>CMS</payername>
+    <payerid>CMS</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>MEDICARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Eligibility</datequalifier>
+      <date-of-service>20180116-20180116</date-of-service>
+    </date>
+    <patientname>
+      <first>LUELLA</first>
+      <last>LANGOSH</last>
+    </patientname>
+    <patientid>999999999A</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19770720</date-of-birth>
+    <rejection>
+      <rejectreason>Patient Birth Date Does Not Match That for the Patient on the Database</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>

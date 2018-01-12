@@ -1,0 +1,47 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ResponseAsXml>&lt;eligibilityresponse&gt;&lt;infosource&gt;&lt;transactionid&gt;aa9ff6d9f74ff89e736b9e7c252739&lt;/transactionid&gt;&lt;payername&gt;UNICARE&lt;/payername&gt;&lt;payerid&gt;10285&lt;/payerid&gt;&lt;/infosource&gt;&lt;inforeceiver&gt;&lt;providername&gt;&lt;last&gt;GOOD MEASURES,&lt;/last&gt;&lt;/providername&gt;&lt;npi&gt;1427487917&lt;/npi&gt;&lt;/inforeceiver&gt;&lt;subscriber&gt;&lt;trace_number&gt;11836173168&lt;/trace_number&gt;&lt;trace_id&gt;9MEDDATACO&lt;/trace_id&gt;&lt;trace_number&gt;855370139&lt;/trace_number&gt;&lt;trace_id&gt;99Trizetto&lt;/trace_id&gt;&lt;date&gt;&lt;datequalifier&gt;Plan&lt;/datequalifier&gt;&lt;date-of-service&gt;20180116&lt;/date-of-service&gt;&lt;/date&gt;&lt;patientname&gt;&lt;first&gt;MICKEY&lt;/first&gt;&lt;last&gt;MOUSE&lt;/last&gt;&lt;/patientname&gt;&lt;patientid&gt;W999999999&lt;/patientid&gt;&lt;sex&gt;Female&lt;/sex&gt;&lt;date-of-birth&gt;19281118&lt;/date-of-birth&gt;&lt;rejection&gt;&lt;rejectreason&gt;Invalid/Missing Subscriber/Insured ID&lt;/rejectreason&gt;&lt;followupaction&gt;Please Correct and Resubmit&lt;/followupaction&gt;&lt;/rejection&gt;&lt;/subscriber&gt;&lt;/eligibilityresponse&gt;</ResponseAsXml>
+        <ExtraProcessingInfo>
+          <AllMessages/>
+          <Failures/>
+        </ExtraProcessingInfo>
+        <SuccessCode>Success</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value>GOOD MEASURES,</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>1427487917</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value>Mickey</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value>Mouse</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value>19281118</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuranceNum</Name>
+              <Value>W999999999</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>80314</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

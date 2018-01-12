@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>313AB155F0234854AF618CE5BAE56D</transactionid>
+    <payername>AETNA INC</payername>
+    <payerid>953402799</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>Good Measures  Inc.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20160729-20170531</date-of-service>
+    </date>
+    <date>
+      <datequalifier>Service</datequalifier>
+      <date-of-service>20180116</date-of-service>
+    </date>
+    <date>
+      <datequalifier>Eligibility Begin</datequalifier>
+      <date-of-service>20160101</date-of-service>
+    </date>
+    <patientname>
+      <first>SELINA</first>
+      <middle>Y</middle>
+      <last>REILLY</last>
+      <patientaddress>43257 CURT CORNER</patientaddress>
+      <patientcity>SIMONISBOROUGH</patientcity>
+      <patientstate>AL</patientstate>
+      <patientzip>69741</patientzip>
+    </patientname>
+    <patientid>W999999999</patientid>
+    <sex>Male</sex>
+    <date-of-birth>19771017</date-of-birth>
+    <benefit>
+      <info>Inactive</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plancoveragedescription>Aetna Choice POS II</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Other Source of Data</info>
+      <benefitentity>
+        <name>Aetna</name>
+        <benefit_related_entity_address_1>PO Box 981106</benefit_related_entity_address_1>
+        <benefit_related_entity_city>El Paso</benefit_related_entity_city>
+        <benefit_related_entity_state>TX</benefit_related_entity_state>
+        <benefit_related_entity_zip>79998</benefit_related_entity_zip>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

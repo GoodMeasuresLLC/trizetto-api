@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>dd8838b816ea4635a3305e9e9e2977</transactionid>
+    <payername>UNICARE</payername>
+    <payerid>10285</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>MEDICARE</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <subscriberaddinfo>
+      <subsupplementalid>Case Number</subsupplementalid>
+      <grouppolicynum>EH99</grouppolicynum>
+    </subscriberaddinfo>
+    <subscribername>
+      <first>ABAGAIL</first>
+      <middle>Z</middle>
+      <last>RITCHIE</last>
+    </subscribername>
+    <subscriberid>999A99999</subscriberid>
+    <relationship>
+      <insuredindicator>Yes</insuredindicator>
+      <relationshipcode>Self</relationshipcode>
+      <relationshiptypecode>Change</relationshiptypecode>
+      <relationshipreasoncode>Change in Identifying Data Elements</relationshipreasoncode>
+    </relationship>
+  </subscriber>
+  <dependent>
+    <trace_number>99999999999</trace_number>
+    <trace_id>VSUCUMAYCC</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>6P</subsupplementalid>
+      <grouppolicynum>99999M999</grouppolicynum>
+      <plansponsorname>BALISTRERI INC</plansponsorname>
+    </subscriberaddinfo>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20070101-99991231</date-of-service>
+    </date>
+    <patientname>
+      <first>JESS</first>
+      <middle>H</middle>
+      <last>KOVACEK</last>
+    </patientname>
+    <sex>F</sex>
+    <date-of-birth>19630608</date-of-birth>
+    <relationship>
+      <insuredindicator>No</insuredindicator>
+      <relationshipcode>Spouse</relationshipcode>
+      <relationshiptypecode>Change</relationshiptypecode>
+      <relationshipreasoncode>Change in Identifying Data Elements</relationshipreasoncode>
+    </relationship>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Employee and Spouse</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <insurancetype>Preferred Provider Organization (PPO)</insurancetype>
+      <insurancetypecode>PR</insurancetypecode>
+      <plancoveragedescription>CW PLUS</plancoveragedescription>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetypecode>AL^BZ^UC^1^33^47^48^50^51^52^86^98</servicetypecode>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Active Coverage</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>BZ^50^51^52^86</servicetypecode>
+      <percent>0</percent>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <percent>0</percent>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <benefitentity>
+        <entitycode>Utilization Management Organization</entitycode>
+        <name>UTILIZATION MANAGEMENT</name>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>8004429300</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>0</percent>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>0</percent>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <percent>.2</percent>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Outpatient</servicetype>
+      <servicetypecode>50</servicetypecode>
+      <percent>.2</percent>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Insurance</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <percent>.2</percent>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>30</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>60</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>90</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>100</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>20</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>20</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <benefitamount>500</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <benefitentity>
+        <entitycode>Utilization Management Organization</entitycode>
+        <name>UTILIZATION MANAGEMENT</name>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>8004429300</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <benefitamount>1500</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <benefitamount>275</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>100</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>100</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>500</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <benefitentity>
+        <entitycode>Utilization Management Organization</entitycode>
+        <name>UTILIZATION MANAGEMENT</name>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>8004429300</communicationnumber>
+      </benefitentity>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>1500</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <benefitamount>275</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^51^52^86</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>100</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>15</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Visit</time_period_qualifier>
+      <benefitamount>20</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Urgent Care</servicetype>
+      <servicetypecode>UC</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>382.22</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>382.22</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetypecode>50^51^52^86</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetypecode>50^51^52^86</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>1000</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^51^52^86</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>50^51^52^86</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Deductible</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>0</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-20180630</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>1</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>2</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>AGE 6  MONTHS TO 17 MONTHS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>1</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>3</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>AGE 18 MONTHS TO 35 MONTHS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>1</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>11</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Physician Visit - Office: Well</servicetype>
+      <servicetypecode>BZ</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>6</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>5</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>AGE 0  MONTHS TO 5  MONTHS</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Professional (Physician) Visit - Office</servicetype>
+      <servicetypecode>98</servicetypecode>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>1</benefitquantity>
+      <period_count_qualifier>Month</period_count_qualifier>
+      <period_count>23</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>20</benefitquantity>
+      <period_count_qualifier>Service Year</period_count_qualifier>
+      <benefitquantityqualifier>Visits</benefitquantityqualifier>
+      <benefitquantity>20</benefitquantity>
+      <period_count_qualifier>Remaining</period_count_qualifier>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <benefitquantityqualifier>Units</benefitquantityqualifier>
+      <benefitquantity>90</benefitquantity>
+      <period_count_qualifier>Day</period_count_qualifier>
+      <period_count>90</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <benefitquantityqualifier>Units</benefitquantityqualifier>
+      <benefitquantity>90</benefitquantity>
+      <period_count_qualifier>Day</period_count_qualifier>
+      <period_count>90</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <benefitquantityqualifier>Units</benefitquantityqualifier>
+      <benefitquantity>90</benefitquantity>
+      <period_count_qualifier>Day</period_count_qualifier>
+      <period_count>90</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital - Inpatient</servicetype>
+      <servicetypecode>48</servicetypecode>
+      <yes_no_response_code>Yes</yes_no_response_code>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <benefitquantityqualifier>Units</benefitquantityqualifier>
+      <benefitquantity>90</benefitquantity>
+      <period_count_qualifier>Day</period_count_qualifier>
+      <period_count>90</period_count>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>10000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>10000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>8000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>7023.96</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>5000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>5000</benefitamount>
+      <plannetworkindicator>Out of Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Service Year</time_period_qualifier>
+      <benefitamount>4000</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <time_period_qualifier>Remaining</time_period_qualifier>
+      <benefitamount>3762.22</benefitamount>
+      <plannetworkindicator>In Plan-Network</plannetworkindicator>
+    </benefit>
+    <benefit>
+      <info>Benefit Disclaimer</info>
+      <message>UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBERS ELIGIBILITY STATUS ON THE DATE OF SERVICE. FOR ANY QUESTIONS PLEASE CALL PHONE NUMBER ON BACK OF MEMBERS CARD.</message>
+    </benefit>
+    <benefit>
+      <info>Contact Following Entity for Eligibility or Benefit Information</info>
+      <servicetype>Mental Health</servicetype>
+      <servicetypecode>MH</servicetypecode>
+      <datequalifier>Benefit</datequalifier>
+      <date-of-service>20170701-99991231</date-of-service>
+      <benefitentity>
+        <name>MARQUARDT, HAMILL AND SMITHAM</name>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>5169854630</communicationnumber>
+      </benefitentity>
+    </benefit>
+  </dependent>
+</eligibilityresponse>

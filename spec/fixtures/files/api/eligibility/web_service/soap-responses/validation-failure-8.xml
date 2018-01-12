@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages>
+            <string>Please enter InsuranceNum.</string>
+          </AllMessages>
+          <Failures>
+            <ValidationFailure>
+              <AffectedFields>
+                <string>InsuranceNum</string>
+              </AffectedFields>
+              <Message>Please enter InsuranceNum.</Message>
+            </ValidationFailure>
+          </Failures>
+        </ExtraProcessingInfo>
+        <SuccessCode>ValidationFailure</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>1427487917</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value>Mickey</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value>Mouse</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value>19281118</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>N4222</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>DependentFirstName</Name>
+              <Value>Minnie</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>DependentLastName</Name>
+              <Value>Mouse</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>DependentDob</Name>
+              <Value>19291118</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,1 @@
+--no-private -r README.md lib/**/*.rb
