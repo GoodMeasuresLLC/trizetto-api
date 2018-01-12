@@ -1,3 +1,8 @@
+## 0.1.2 (January 12, 2018) ##
+
+* Have the non-COR II Eligiblity check return an XML document.  YAY! We can
+  parse and understand XML without having to understand X12.
+
 ## 0.1.1 (January 11, 2018) ##
 
 * Initial implementation of 5 Trizetto API endpoints: Eligibility check with

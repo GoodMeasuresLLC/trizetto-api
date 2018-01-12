@@ -30,11 +30,36 @@ module Trizetto
           }))
         end
 
+        # Required Field:
+        #   +GediPayerId+        - The Gateway EDI specific payer identifier
+        #   +ProviderLastName+   - Provider Last Name/Organization Name
+        #   +NPI+                - National Provider Identifier
+        #
+        # Situational Fields:
+        #
+        #   +ProviderFirstName+  - Provider First Name
+        #   +InsuredFirstName+   - Subscriber First Name
+        #   +InsuredLastName+    - Subscriber Last Name
+        #   +InsuranceNum+       - Subscriber Id
+        #   +InsuredDob+         - Subscriber DOB
+        #   +InsuredGender+      - Subscriber Gender
+        #   +DependentFirstName+ - Dependent First Name
+        #   +DependentLastName+  - Dependent Last Name
+        #   +DependentDob+       - Dependent DOB
+        #   +DependentGender+    - Dependent Gender
+        #
+        # Note: Some payers require additional information than those listed above. Please refer to the
+        # companion guide for the additional parameters required by few payers. A valid inquiry submitted
+        # to those payers must also account for the additional payer specific parameters. “InsuranceNum,” in
+        # particular, is not a required field for all transactions, but is required by almost all payers.
+        #
         # See Also:
         #
         # - Service Description: https://services.gatewayedi.com/eligibility/service.asmx?op=DoInquiry
         def do_inquiry(parameters={})
-          @client.call(:do_inquiry, message: { 'Inquiry': {'Parameters': {
+          @client.call(:do_inquiry, message: { 'Inquiry': {
+            'ResponseDataType': 'Xml',
+            'Parameters': {
             'MyNameValue': parameters.map do |name, value|
                 {'Name': name, 'Value': value}
               end

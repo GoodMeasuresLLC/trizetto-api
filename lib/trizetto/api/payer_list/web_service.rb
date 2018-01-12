@@ -29,6 +29,20 @@ module Trizetto
         # Retrieves all Gateway EDI recognized payers along with their supported transaction types and
         # servicing states and links to their enrollment documentation, if it exists.
         #
+        # The service provides the following information for each payer
+        # Type – HCFA or UB.
+        # - Payer ID – The Gateway EDI payer identification number.
+        # - Payer Name – The payer name.
+        # - Nation Wide – Yes or No.
+        # - Servicing States – List of supported states.
+        # - Supported Transactions – List of supported transactions.
+        # -- Description – A description of the available transactions. Transaction include Claims, Real-time Claim Status, Remittance Advice, Real-time Eligibility, and Electronic COB.
+        # -- Enrollment Required – Yes or No.
+        # -- Enrollment Agreement – A http link to the enrollment documentation.
+        # -- Authorization Required – Yes or No.
+        # - Provider ID Required – Yes or No.
+        # - NPI Enabled – Yes or No.
+        # - Last Date Modified – Last date that payer information was modified.
         # Note: You probably need to set a long timeout to make this call
         def payer_list
           @client.call(:get_xml_payer_list, message: {})

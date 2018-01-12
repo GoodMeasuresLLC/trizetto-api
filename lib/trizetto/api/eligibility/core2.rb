@@ -58,28 +58,6 @@ module Trizetto
 
         # TODO: Understand the X12 format and allow options to be passed in, then generate the X12 message
         #
-        # Required Field:
-        #   +ProviderLastName+   - Provider Last Name/Organization Name
-        #   +NPI+                - National Provider Identifier
-        #
-        # Situational Fields:
-        #
-        #   +ProviderFirstName+  - Provider First Name
-        #   +InsuredFirstName+   - Subscriber First Name
-        #   +InsuredLastName+    - Subscriber Last Name
-        #   +InsuranceNum+       - Subscriber Id
-        #   +InsuredDob+         - Subscriber DOB
-        #   +InsuredGender+      - Subscriber Gender
-        #   +DependentFirstName+ - Dependent First Name
-        #   +DependentLastName+  - Dependent Last Name
-        #   +DependentDob+       - Dependent DOB
-        #   +DependentGender+    - Dependent Gender
-        #
-        # Note: Some payers require additional information than those listed above. Please refer to the
-        # companion guide for the additional parameters required by few payers. A valid inquiry submitted
-        # to those payers must also account for the additional payer specific parameters. “InsuranceNum,” in
-        # particular, is not a required field for all transactions, but is required by almost all payers.
-        #
         def check_eligibility(options = {})
         @client.call(:real_time_transaction, message: {
           'PayloadType': 'X12_270_Request_005010X279A1',

@@ -20,23 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-### Use the CORE2 API with an X12 payload to check eligibility in realtime
-
-```ruby
-
-require 'trizetto/api'
-
-Trizetto::Api.configure do |config|
-  config.username = 'Not the real username'
-  config.password = 'Super Top Secret'
-end
-
-
-client = Trizetto::Api::Eligibility::Core2.new
-client.check_eligibility(payload: x12_message)
-```
-
 ### Use the Eligibility Web Service with an XML payload to check eligibility in realtime
+
+This uses name/value pairs in a request and returns an XML docunment as a response.
+You can force this API to return an X12 document if you like pain.
 
 ```ruby
 require 'trizetto/api'
@@ -60,8 +47,32 @@ response = client.do_inquiry({
   'InsuredDob':       '19281118',
   'GediPayerId':      'N4222',
 })
+
+puts response.to_hash[:do_inquiry_response][:do_inquiry_result][:success_code]
+
+source = response.to_hash[:do_inquiry_response][:do_inquiry_result][:response_as_xml]
+puts Nokogiri::XML(source).to_xml
 ```
 
+
+### Use the CORE2 API with an X12 payload to check eligibility in realtime
+
+This returns an X12/271 response.  You will need to understand how to build
+X12/270 requests and parse X12/271 responses.
+
+```ruby
+
+require 'trizetto/api'
+
+Trizetto::Api.configure do |config|
+  config.username = 'Not the real username'
+  config.password = 'Super Top Secret'
+end
+
+
+client = Trizetto::Api::Eligibility::Core2.new
+client.check_eligibility(payload: x12_message)
+```
 
 ### Ping the Payer List endpoint to see if it is up
 
@@ -83,6 +94,8 @@ response = client.ping
 ```
 
 ### Fetch the Payer List
+
+This API times out or errors out on the Trizetto server.  But you may get it to work.
 
 ```ruby
 require 'trizetto/api'
