@@ -1,3 +1,12 @@
+## 0.2.0 (January 18, 2018) ##
+
+* Make it simple to answer the question: does this person have insurance
+  coverage via the WebService Eligibility check.  The raw XML response is parsed
+  into plain old ruby objects.
+* Added tests (woo hoo)
+* Readme update with examples
+* Documented the WebService Eligibility check
+
 ## 0.1.2 (January 12, 2018) ##
 
 * Have the non-COR II Eligiblity check return an XML document.  YAY! We can
