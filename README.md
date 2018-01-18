@@ -8,10 +8,29 @@ Ruby wrapper for Trizetto APIs for Ruby 2.3 and above.
 
 <b>Requires Ruby 2.3 or above</b>
 
-Add this line to your application's Gemfile:
+Add this line, and maybe some others, to your application's Gemfile:
 
 ```ruby
 gem 'trizetto-api'
+
+# Savon-multipart is used in the CORE II API. savon-multipart 2.1.1 has the
+# mail gem, pinned to exactly 2.5.4.  As of Jan 18, 2018, there is an
+# unreleased version that uses ~> 2.6.  Depending on your existing gems
+# you may need to add an explicit dependency on savon-multipart if bundle
+# install fails with a mail gem dependency.
+#
+# You can savon-multipart, or use git diretly with one of the below
+#
+# savon-multipart as of Jan 18, 2018:
+# gem 'savon-multipart', :git => "git@github.com:savonrb/savon-multipart.git", :ref => 'd9a138b6c166cd7c30c28e8888ff19011f8ec071'
+#
+# live on the edge
+# gem 'savon-multipart', :git => "git@github.com:savonrb/savon-multipart.git", :master
+#
+# Your fork?
+# gem 'savon-multipart', :git => "git@github.com:YOU/savon-multipart.git"
+
+
 ```
 
 And then execute:
@@ -22,8 +41,8 @@ Or install it yourself as:
 
     $ gem install trizetto-api
 
-
 ## Usage
+
 
 ### Use the Eligibility Web Service with an XML payload to check eligibility in realtime
 
