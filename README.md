@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.org/GoodMeasuresLLC/trizetto-api.svg?branch=master)](https://travis-ci.org/GoodMeasuresLLC/trizetto-api)
-
 # Trizetto::Api
 
-Ruby wrapper for Trizetto APIs
+[![Build Status](https://travis-ci.org/GoodMeasuresLLC/trizetto-api.svg?branch=master)](https://travis-ci.org/GoodMeasuresLLC/trizetto-api)
+
+Ruby wrapper for Trizetto APIs for Ruby 2.3 and above.
 
 ## Installation
+
+<b>Requires Ruby 2.3 or above</b>
 
 Add this line to your application's Gemfile:
 
@@ -19,6 +21,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install trizetto-api
+
 
 ## Usage
 
