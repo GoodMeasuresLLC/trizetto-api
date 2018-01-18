@@ -1,6 +1,8 @@
 require 'ostruct'
 
 require File.dirname(__FILE__) + "/web_service/rejectable.rb"
+require File.dirname(__FILE__) + "/web_service/node.rb"
+require File.dirname(__FILE__) + "/web_service/patient.rb"
 
 Dir[File.dirname(__FILE__) + '/web_service/*.rb'].each {|file| require file }
 

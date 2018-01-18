@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GoodMeasuresLLC/trizetto-api.svg?branch=master)](https://travis-ci.org/GoodMeasuresLLC/trizetto-api)
+
 # Trizetto::Api
 
 Ruby wrapper for Trizetto APIs
