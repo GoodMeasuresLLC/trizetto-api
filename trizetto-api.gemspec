@@ -24,8 +24,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "byebug", "~> 9.0"
 
   spec.add_dependency "savon", "~> 2.0"
   spec.add_dependency "savon-multipart", "~> 2.0"
+
+  # Hash#dig is usedbu
+  spec.required_ruby_version = '>= 2.3.0'
 end

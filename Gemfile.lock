@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trizetto-api (0.1.2)
+    trizetto-api (0.2.0)
       savon (~> 2.0)
       savon-multipart (~> 2.0)
 
@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  byebug
+  byebug (>= 9.0)
   rake (~> 10.0)
   rspec (~> 3.0)
   trizetto-api!
