@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trizetto-api (0.2.0)
+    trizetto-api (0.2.1)
       savon (~> 2.0)
       savon-multipart (~> 2.0)
 
@@ -43,12 +43,12 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
-    savon (2.11.2)
+    savon (2.12.0)
       akami (~> 1.2)
       builder (>= 2.1.2)
       gyoku (~> 1.2)
       httpi (~> 2.3)
-      nokogiri (>= 1.4.0)
+      nokogiri (>= 1.8.1)
       nori (~> 2.4)
       wasabi (~> 3.4)
     savon-multipart (2.1.1)
@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  byebug (>= 9.0)
+  byebug (~> 9.0)
   rake (~> 10.0)
   rspec (~> 3.0)
   trizetto-api!
