@@ -1,3 +1,7 @@
+## 0.2.1 (January 18, 2018) ##
+
+* Sets required minimum version for ruby to 2.3
+
 ## 0.2.0 (January 18, 2018) ##
 
 * Make it simple to answer the question: does this person have insurance
