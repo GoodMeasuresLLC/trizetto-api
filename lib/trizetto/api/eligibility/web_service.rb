@@ -116,16 +116,15 @@ module Trizetto
           #
           # @return DoInquiryResponse
           def do_inquiry(parameters={})
-            DoInquiryResponse.new(
-              @client.call( :do_inquiry, message: { 'Inquiry': {
-                'ResponseDataType': 'Xml',
-                'Parameters': {
-                  'MyNameValue': parameters.map { |name, value|
-                     {'Name': name, 'Value': value}
-                   }
-                }
-              }})
-            )
+            savon_response = @client.call( :do_inquiry, message: { 'Inquiry': {
+              'ResponseDataType': 'Xml',
+              'Parameters': {
+                'MyNameValue': parameters.map { |name, value|
+                   {'Name': name, 'Value': value}
+                 }
+              }
+            }})
+            DoInquiryResponse.new(savon_response.body, savon_response.to_xml)
           end
 
           alias_method :check_eligibility, :do_inquiry

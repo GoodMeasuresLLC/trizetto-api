@@ -22,7 +22,6 @@ module Trizetto
                 end
               end
             end
-
             super(clean_hash)
           end
         end

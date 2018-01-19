@@ -1,6 +1,8 @@
 RSpec.describe "HPHC - Patient is the subscriber", type: :eligibility_response do
   let(:file) {"hphc/patient_is_subscriber.xml"}
 
+  let(:trace_number) {"99999999"}
+
   include_examples "active coverage"
 
   it "has a subscriber who is the patient" do

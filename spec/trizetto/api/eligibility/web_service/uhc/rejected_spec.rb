@@ -7,6 +7,9 @@ RSpec.describe "UHC - Rejected", type: :eligibility_response do
         ["Patient Birth Date Does Not Match That for the Patient on the Database", "Please Correct and Resubmit"],
       ]
     }
+
+    let(:trace_number) {"1ß2345679"}
+
     let(:file) {"uhc/rejection-1.xml"}
     include_examples "rejected"
   end
@@ -16,6 +19,7 @@ RSpec.describe "UHC - Rejected", type: :eligibility_response do
       ["Unable to Respond at Current Time", "Resubmission Allowed"]
     ]}
 
+    let(:trace_number) {"851380932"}
     let(:file) {"uhc/rejection-2.xml"}
     include_examples "rejected"
   end

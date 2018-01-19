@@ -64,9 +64,42 @@ module Trizetto
           # @see InfoReceiver
           attr_accessor :info_receiver
 
+          # The full XML response from Trizetto if it was provided.
+          attr_accessor :raw_xml
 
-          def initialize(response)
-            response = response.to_hash.dig(:do_inquiry_response, :do_inquiry_result) || {}
+          # Parses the SOAP response from a DoInquiry request into ruby objects
+          #
+          # *Example*
+          #
+          #    DoInquiryResponse.new({
+          #       do_inquiry_response: {
+          #         do_inquiry_result: {
+          #           success_code: "Success",
+          #           response_as_xml: "...",
+          #           extra_processing_info: { ... }
+          #         }
+          #       }
+          #    })
+          #
+          # *Example*
+          #
+          #    client = Savon.client.new(...)
+          #    savon_response = client.call( :do_inquiry, message: {...} )
+          #    DoInquiryResponse.new(savon_response.body, savon_response.to_xml)
+          #
+          # *Example*
+          #
+          #    parser = Nori.new(convert_tags_to: lambda { |tag| tag.snakecase.to_sym })
+          #    raw_xml = File.read( xml_saved_on_disk_path )
+          #    body = parser.parse(raw_xml).dig(:"soap:envelope", :"soap:body")
+          #    DoInquiryResponse.new(body, raw_xml)
+          #
+          # @param body [Hash] the body of the SOAP request.
+          # @param xml [string] the raw XML of the SOAP request including the envelope
+          def initialize(body, xml = nil)
+            self.raw_xml = xml
+
+            response = body.dig(:do_inquiry_response, :do_inquiry_result) || {}
 
             self.success_code    = response[:success_code]
             self.response_as_xml = response[:response_as_xml]
@@ -160,6 +193,22 @@ module Trizetto
             !!(patient && patient.benefits.any? do |benefit|
               benefit.active_coverage? && benefit.service_type_codes.include?(service_type_code.to_s)
             end)
+          end
+
+          # Trizetto adds a trace number to the subscriber or dependent that can
+          # be given to them later as part of a support request.  Additionally
+          # the payer may add a trace.  All the traces are available through
+          # `patient.traces`
+          #
+          # <b>Example</b>
+          #
+          #   response.trace_number               # => "81238881"
+          #   response.trace_number('99Trizetto') # => "81238881"
+          #   response.traces                     # => {"99TRIZETTO": "81238881"}
+          #
+          # @return [String] - a number that can be given to support for help with this request
+          def trace_number(trace_id="99Trizetto")
+            patient&.trace_number(trace_id)
           end
         end
       end

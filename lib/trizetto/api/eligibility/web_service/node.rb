@@ -8,6 +8,8 @@ module Trizetto
         # Base class for parsed reponses in the eligibility response.
         class Node < OpenStruct
           def initialize(raw_hash = {})
+            raw_hash ||= {} # handle <Node/> tags - the hash comes through, but its nil
+
             required_keys = self.class.constants.include?(:REQUIRED_KEYS) ? self.class::REQUIRED_KEYS : {}
             clean_hash = required_keys.merge(raw_hash)
 

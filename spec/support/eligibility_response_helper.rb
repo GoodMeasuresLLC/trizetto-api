@@ -17,11 +17,19 @@ module EligibilityResponseHelper
         })
       end
 
+      let(:trace_number) {'999999999'}
+      let(:trace_id) {"99Trizetto"}
+
       shared_examples_for "not rejected" do
         it do
           expect(response).to_not be_rejected
           expect(response.rejections).to eq([])
         end
+
+        it "trace_number" do
+          expect(response.trace_number(trace_id)).to eq(trace_number)
+        end
+
       end
 
       shared_examples_for "rejected" do
@@ -35,6 +43,10 @@ module EligibilityResponseHelper
             expect(response.rejections[index].reason).to eq(expected.first)
             expect(response.rejections[index].follow_up_action).to eq(expected.last)
           end
+        end
+
+        it "trace_number" do
+          expect(response.trace_number("99Trizetto")).to eq(trace_number)
         end
       end
 

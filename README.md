@@ -22,15 +22,13 @@ gem 'trizetto-api'
 # You can savon-multipart, or use git diretly with one of the below
 #
 # savon-multipart as of Jan 18, 2018:
-# gem 'savon-multipart', :git => "git@github.com:savonrb/savon-multipart.git", :ref => 'd9a138b6c166cd7c30c28e8888ff19011f8ec071'
+# gem 'savon-multipart', git: "git@github.com:savonrb/savon-multipart.git", ref: 'd9a138b6c166cd7c30c28e8888ff19011f8ec071'
 #
 # live on the edge
-# gem 'savon-multipart', :git => "git@github.com:savonrb/savon-multipart.git", :master
+# gem 'savon-multipart', git: "git@github.com:savonrb/savon-multipart.git", branch: :master
 #
 # Your fork?
-# gem 'savon-multipart', :git => "git@github.com:YOU/savon-multipart.git"
-
-
+# gem 'savon-multipart', git: "git@github.com:YOU/savon-multipart.git"
 ```
 
 And then execute:
@@ -51,9 +49,8 @@ This uses name/value pairs in a request and returns an XML docunment as a respon
 To simply check if the patient is covered by a health plan
 
 ```ruby
-GENERAL_HEALTH_PLAN_COVERAGE_CODE = "30"
 response = client.do_inquiry({...})
-response.active_coverage_for?(GENERAL_HEALTH_PLAN_COVERAGE_CODE)  #=> true | false
+response.active_coverage_for?("30`")  #=> true | false
 ```
 
 ```ruby
@@ -72,7 +69,7 @@ client = Trizetto::Api::Eligibility::WebService::Client.new({
 })
 
 response = client.do_inquiry({
-  'ProviderLastName': 'BLUE CROSS BLUE SHIELD OF MASSACHUSETTS',
+  'ProviderLastName': 'YOUR_COMPANY_NAME',
   'NPI':              'YOUR NPI HERE',
   'InsuredFirstName': 'Mickey',
   'InsuredLastName':  'Mouse',
@@ -91,6 +88,7 @@ response.errors.validation_failures.first.message          # => "Please enter In
 response.success?                   # => true
 response.success_code               # => "Success"
 response.transaction_id             # => "c6eb40c5584f0496be3f3a48d0ddfd"
+response.trace_number               # => "88213481"
 response.payer_name                 # => "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS"
 response.active_coverage_for?("30") # => true
 

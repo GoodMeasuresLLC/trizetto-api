@@ -8,5 +8,7 @@ RSpec.describe "HPHC - Unable to Response", type: :eligibility_response do
     ["Unable to Respond at Current Time", "Resubmission Allowed"]
   ]}
 
+  let(:trace_number) {"99999999"}
+
   include_examples "rejected"
 end

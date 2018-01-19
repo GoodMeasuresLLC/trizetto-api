@@ -6,8 +6,9 @@ RSpec.describe Trizetto::Api::Eligibility::WebService do
   # Parse the response file into a DoInquiryResponse.
   def inquiry_response(file)
     parser = Nori.new(convert_tags_to: lambda { |tag| tag.snakecase.to_sym })
-    fixture_as_hash = parser.parse(File.read(File.join(fixture_path, file))).dig(:"soap:envelope", :"soap:body")
-    Trizetto::Api::Eligibility::WebService::DoInquiryResponse.new(fixture_as_hash)
+    raw_xml = File.read(File.join(fixture_path, file))
+    body = parser.parse(raw_xml).dig(:"soap:envelope", :"soap:body")
+    Trizetto::Api::Eligibility::WebService::DoInquiryResponse.new(body, raw_xml)
   end
 
   # We don't always succeed in our request - sometimes fields are required by

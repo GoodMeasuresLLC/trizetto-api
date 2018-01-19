@@ -1,3 +1,12 @@
+## 0.2.2 (January 19, 2018) ##
+
+* The response from the DoInquiry eligiblity check now captures the raw XML and
+  can be recreated from stored XML.
+* Traces are available as part of the DoInquiry eligibility response.  Trizetto
+  adds a trace_id ("99Trizetto") and a trace_number to each request that can be
+  provided to them later as part of a support request.  The payer may also add
+  a trace which is available also.
+
 ## 0.2.1 (January 18, 2018) ##
 
 * Sets required minimum version for ruby to 2.3
