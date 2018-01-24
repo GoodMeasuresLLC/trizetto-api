@@ -50,7 +50,7 @@ To simply check if the patient is covered by a health plan
 
 ```ruby
 response = client.do_inquiry({...})
-response.active_coverage_for?("30`")  #=> true | false
+response.active_coverage_for?("30")  #=> true | false
 ```
 
 ```ruby
