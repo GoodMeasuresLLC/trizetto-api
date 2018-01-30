@@ -97,9 +97,9 @@ response.success?                           # => true
 response.success_code                       # => "Success"
 response.active_coverage_for?("30")         # => false
 response.rejected?                          # => true
-response.rejectsions.count                  # => 1
-response.rejectsions.first.reason           # => "Patient Birth Date Does Not Match That for the Patient on the Database"
-response.rejectsions.first.follow_up_action # => "Please Correct and Resubmit"
+response.rejections.count                  # => 1
+response.rejections.first.reason           # => "Patient Birth Date Does Not Match That for the Patient on the Database"
+response.rejections.first.follow_up_action # => "Please Correct and Resubmit"
 
 # What active insurance coverages of service_type_code=30 does this patient have?
 coverages = response.patient.benefits.select {|benefit| benefit.active_coverage? && benefit.service_type_codes.include?("30")}
