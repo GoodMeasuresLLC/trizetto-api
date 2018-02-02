@@ -92,6 +92,12 @@ response.trace_number               # => "88213481"
 response.payer_name                 # => "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS"
 response.active_coverage_for?("30") # => true
 
+# Did the response have group number for the subscriber or dependent?
+response.subscriber&.group_number || response.dependent&.group_number  # =>999999999A6AG999
+
+# What is the subscriber's member number?
+response.subscriber.id  # => XXP123456789
+
 # Was the response rejected? We got back an eligibility response, but probably the patient wasn't found
 response.success?                           # => true
 response.success_code                       # => "Success"

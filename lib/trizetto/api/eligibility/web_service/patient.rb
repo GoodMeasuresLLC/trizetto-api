@@ -49,6 +49,37 @@ module Trizetto
                 traces[id.upcase] = trace_numbers[index]
               end
             end
+
+            if self.subscriberaddinfo.is_a?(Hash)
+              self.subscriberaddinfo = [self.subscriberaddinfo]
+            end
+
+            self.additional_info = self.subscriberaddinfo&.map do |additional_info_hash|
+              AdditionalInfo.new(additional_info_hash)
+            end || []
+          end
+
+          # Looks in the additional info returned with the patient for a group number
+          #
+          # The group number is the additinal infomation node with a id of 6P
+          # or Group Number.
+          #
+          # @see https://www.eedi.net/4010/278004010X094A1%5C29_278004010X094A1.htm
+          #
+          # @return [String]
+          def group_number
+            # it seems 6P is group number
+            self.additional_info.detect do |additional_info|
+              ["6P", "Group Number"].include?(additional_info.id)
+            end&.group_policy_number
+          end
+
+          # Looks in the additional info returned with the patient for a group number
+          # @return [String]
+          def plan_number
+            self.additional_info.detect do |additional_info|
+              additional_info.id == "Plan Number"
+            end&.group_policy_number
           end
 
           # Looks for a trace number by trace_id (who added the trace).

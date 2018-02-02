@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trizetto-api (0.2.2)
+    trizetto-api (0.2.3)
       savon (~> 2.0)
       savon-multipart (~> 2.0)
 

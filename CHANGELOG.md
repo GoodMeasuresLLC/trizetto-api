@@ -1,3 +1,17 @@
+## 0.2.3 (Feb 02, 2018) ##
+
+* Add helpers for extracting the group number and plan number from either a
+  subscriber or dependent node in the response.  As a remdiner, the patient is
+  the dependent if present, or the subscriber.  Depending on the payer, the
+  group number might be in the subscriber or in the dependent, you can't rely
+  on it being in the subscriber 100%.  You need to check both, starting with the
+  dependent to get the group number. `dependent&.group_number || subscriber&.group_number`
+* Parse subscriber additional information (subscriberaddinfo) into the patient
+  note.  For some payers, they put subscriberaddinfo in the dependent, so its
+  present in both subscribers and dependents.
+* Turn the subscriberid node into an id.  This seems to be the member number for
+  the insurance so make it easy to get
+
 ## 0.2.2 (January 19, 2018) ##
 
 * The response from the DoInquiry eligiblity check now captures the raw XML and

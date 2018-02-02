@@ -22,6 +22,8 @@ module Trizetto
                 end
               end
             end
+
+            clean_hash[:id] = clean_hash.delete(:subscriberid) if clean_hash.has_key?(:subscriberid)
             super(clean_hash)
           end
         end

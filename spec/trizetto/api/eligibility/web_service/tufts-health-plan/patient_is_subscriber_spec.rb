@@ -3,4 +3,8 @@ RSpec.describe "Tufts - Patient is the subscriber", type: :eligibility_response 
 
   let(:trace_number) {"99999999"}
   include_examples "active coverage"
+
+  let(:patient) {response.patient}
+
+  it {expect(patient.id).to eq("N0199999999")}
 end
