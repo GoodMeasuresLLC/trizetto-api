@@ -50,7 +50,7 @@ To simply check if the patient is covered by a health plan
 
 ```ruby
 response = client.do_inquiry({...})
-response.active_coverage_for?("30")  #=> true | false
+response.active_coverage_for?(service_type_code = "30")  #=> true | false
 ```
 
 ```ruby
@@ -80,7 +80,8 @@ response = client.do_inquiry({
 # Were there validation errors with the request?
 response.success?                                          # => false
 response.success_code                                      # => "ValidationFailure"
-response.errors.messages                                   # => ["Please enter InsuranceNum."]response.errors.validation_failures.first.affected_fields  # => ["InsuranceNum"]
+response.errors.messages                                   # => ["Please enter InsuranceNum."]
+response.errors.validation_failures.first.affected_fields  # => ["InsuranceNum"]
 response.errors.validation_failures.first.message          # => "Please enter InsuranceNum."
 
 
@@ -93,16 +94,16 @@ response.payer_name                 # => "BLUE CROSS BLUE SHIELD OF MASSACHUSETT
 response.active_coverage_for?("30") # => true
 
 # Did the response have group number for the subscriber or dependent?
-response.subscriber&.group_number || response.dependent&.group_number  # =>999999999A6AG999
+response.subscriber&.group_number || response.dependent&.group_number  # => "999999999A6AG999"
 
 # What is the subscriber's member number?
-response.subscriber.id  # => XXP123456789
+response.subscriber.id  # => "XXP123456789"
 
 # Was the response rejected? We got back an eligibility response, but probably the patient wasn't found
-response.success?                           # => true
-response.success_code                       # => "Success"
-response.active_coverage_for?("30")         # => false
-response.rejected?                          # => true
+response.success?                          # => true
+response.success_code                      # => "Success"
+response.active_coverage_for?("30")        # => false
+response.rejected?                         # => true
 response.rejections.count                  # => 1
 response.rejections.first.reason           # => "Patient Birth Date Does Not Match That for the Patient on the Database"
 response.rejections.first.follow_up_action # => "Please Correct and Resubmit"
