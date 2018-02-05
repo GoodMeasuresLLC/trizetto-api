@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>c6912d69afb54abea5c2acc7878cf1</transactionid>
+    <payername>BMC HealthNet Plan</payername>
+    <payerid>NEHEN043</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES,</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <subscriberaddinfo>
+      <subsupplementalid>Identity Card Number</subsupplementalid>
+      <grouppolicynum>00</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>G0000000</grouppolicynum>
+      <plansponsorname>NONGROUP - INDIVIDUAL</plansponsorname>
+    </subscriberaddinfo>
+    <subscribername>
+      <first>Emmanuelle</first>
+      <last>Leuschke</last>
+    </subscribername>
+    <subscriberid>C00064190</subscriberid>
+  </subscriber>
+  <dependent>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>HJ</subsupplementalid>
+      <grouppolicynum>02</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>6P</subsupplementalid>
+      <grouppolicynum>G0000000</grouppolicynum>
+      <plansponsorname>NONGROUP - INDIVIDUAL</plansponsorname>
+    </subscriberaddinfo>
+    <patientname>
+      <first>Albert</first>
+      <middle>H</middle>
+      <last>Leuschke</last>
+      <patientaddress>91734 Karina Mountain</patientaddress>
+      <patientaddress2>APT 6F</patientaddress2>
+      <patientcity>Teresafort</patientcity>
+      <patientstate>OH</patientstate>
+      <patientzip>76458</patientzip>
+    </patientname>
+    <sex>F</sex>
+    <date-of-birth>19390806</date-of-birth>
+    <relationship>
+      <insuredindicator>No</insuredindicator>
+      <relationshipcode>Child</relationshipcode>
+      <relationshiptypecode>Change</relationshiptypecode>
+      <relationshipreasoncode>Change in Identifying Data Elements</relationshipreasoncode>
+    </relationship>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180205</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>18</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>47^86</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>50</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetypecode>47^86</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>50</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetypecode>AL^UC</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>18</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Mental Health</servicetype>
+      <servicetypecode>MH</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>10</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <quantityqualifier>Visits</quantityqualifier>
+      <quantity>12</quantity>
+      <message>LIMIT 12 VISITS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Days</quantityqualifier>
+      <quantity>60</quantity>
+      <message>LIMIT OF 60 DAYS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <time_period_qualifier>Calendar Year</time_period_qualifier>
+      <quantityqualifier>Days</quantityqualifier>
+      <quantity>100</quantity>
+      <message>LIMIT OF 100 DAYS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>30^AL^MH^UC</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>750</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetypecode>30^AL^MH^UC</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>1500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetype>Pharmacy</servicetype>
+      <servicetypecode>88</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Pharmacy</servicetype>
+      <servicetypecode>88</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 2</plancoveragedescription>
+      <benefitamount>1000</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Primary Care Provider</info>
+      <benefitentity>
+        <entitycode>Primary Care Provider</entitycode>
+        <name>MONACELLI</name>
+        <first>PHILBERT</first>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1174600134</benefit_related_entity_id>
+        <benefit_related_entity_address_1>435 E HENRIETTA RD</benefit_related_entity_address_1>
+        <benefit_related_entity_city>ROCHESTER</benefit_related_entity_city>
+        <benefit_related_entity_state>NY</benefit_related_entity_state>
+        <benefit_related_entity_zip>14620</benefit_related_entity_zip>
+        <informationcontact>ACME HEALTH INC.</informationcontact>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>5857606108</communicationnumber>
+      </benefitentity>
+    </benefit>
+  </dependent>
+</eligibilityresponse>

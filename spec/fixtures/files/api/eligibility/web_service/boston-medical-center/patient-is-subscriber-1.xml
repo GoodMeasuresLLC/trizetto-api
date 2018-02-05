@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>b9a35d7783cc49c4acb3af4b7c823b</transactionid>
+    <payername>BMC HealthNet Plan</payername>
+    <payerid>NEHEN043</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES,</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace_number>999999999</trace_number>
+    <trace_id>99Trizetto</trace_id>
+    <subscriberaddinfo>
+      <subsupplementalid>Identity Card Number</subsupplementalid>
+      <grouppolicynum>00</grouppolicynum>
+    </subscriberaddinfo>
+    <subscriberaddinfo>
+      <subsupplementalid>Group Number</subsupplementalid>
+      <grouppolicynum>G0000000</grouppolicynum>
+      <plansponsorname>NONGROUP - INDIVIDUAL</plansponsorname>
+    </subscriberaddinfo>
+    <patientname>
+      <first>Amelie</first>
+      <middle>P</middle>
+      <last>Hickle</last>
+      <patientaddress>5041 Marina Squares</patientaddress>
+      <patientcity>Satterfieldport</patientcity>
+      <patientstate>MA</patientstate>
+      <patientzip>56754</patientzip>
+    </patientname>
+    <patientid>C00094050</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19790724</date-of-birth>
+    <benefit>
+      <info>Active Coverage</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20180205</date-of-service>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Medical Care</servicetype>
+      <servicetypecode>1</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>15</benefitamount>
+      <message>PCP</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Medical Care</servicetype>
+      <servicetypecode>1</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>22</benefitamount>
+      <message>SPECIALIST</message>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>22</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Co-Payment</info>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>250</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Chiropractic</servicetype>
+      <servicetypecode>33</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <message>LIMIT 12 VISITS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <message>LIMIT OF 60 DAYS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Limitations</info>
+      <servicetype>Hospital</servicetype>
+      <servicetypecode>47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <message>LIMIT OF 100 DAYS PER SERVICE YEAR</message>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Individual</coveragelevel>
+      <servicetypecode>1^30^33^47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>750</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Out of Pocket (Stop Loss)</info>
+      <coveragelevel>Family</coveragelevel>
+      <servicetypecode>1^30^33^47</servicetypecode>
+      <plancoveragedescription>BMC HealthNet ConnectorCare Plan 3</plancoveragedescription>
+      <benefitamount>1500</benefitamount>
+    </benefit>
+    <benefit>
+      <info>Primary Care Provider</info>
+      <benefitentity>
+        <entitycode>Primary Care Provider</entitycode>
+        <name>IVIE</name>
+        <first>ZACHARY</first>
+        <middle>JACK</middle>
+        <identification_code_qualifier>Health Care Financing Administration National Provider Identifier</identification_code_qualifier>
+        <benefit_related_entity_id>1114335205</benefit_related_entity_id>
+        <benefit_related_entity_address_1>907 GRACE ST.</benefit_related_entity_address_1>
+        <benefit_related_entity_city>POTEAU</benefit_related_entity_city>
+        <benefit_related_entity_state>OK</benefit_related_entity_state>
+        <benefit_related_entity_zip>74953</benefit_related_entity_zip>
+        <informationcontact>ACME MEDICAL GROUP</informationcontact>
+        <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+        <communicationnumber>9187215261</communicationnumber>
+      </benefitentity>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

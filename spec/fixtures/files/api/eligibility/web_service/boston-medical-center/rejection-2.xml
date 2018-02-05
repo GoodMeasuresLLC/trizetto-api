@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+   <infosource>
+      <transactionid>ce08dd94b0604c469d8ab64ca03de1</transactionid>
+      <payername>BMC HealthNet Plan</payername>
+      <payerid>NEHEN043</payerid>
+   </infosource>
+   <inforeceiver>
+      <providername>
+         <last>GOOD MEASURES,</last>
+      </providername>
+      <npi>1427487917</npi>
+   </inforeceiver>
+   <subscriber>
+      <trace_number>999999999</trace_number>
+      <trace_id>99Trizetto</trace_id>
+      <date>
+         <datequalifier>Plan</datequalifier>
+         <date-of-service>20180205</date-of-service>
+      </date>
+      <patientname>
+         <first>MICKEY</first>
+         <last>MOUSE</last>
+      </patientname>
+      <sex>Female</sex>
+      <date-of-birth>19281118</date-of-birth>
+      <rejection>
+         <rejectreason>Invalid/Missing Subscriber/Insured ID</rejectreason>
+         <followupaction>Please Correct and Resubmit</followupaction>
+      </rejection>
+   </subscriber>
+</eligibilityresponse>
