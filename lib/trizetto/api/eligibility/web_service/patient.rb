@@ -6,6 +6,7 @@ module Trizetto
         # A Patient is either a Subscriber or Depedent.  This is the common
         # attributes between the two
         class Patient < Node
+          prepend Rejectable
 
           # @see PatientName
           attr_accessor :name

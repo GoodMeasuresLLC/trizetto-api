@@ -1,3 +1,10 @@
+## 0.2.4 (Feb 23, 2018) ##
+
+* When querying a dependent, using a subscriber's member number, if the member
+  number is invalid, rejections can come back in the dependent.  Rejections
+  in the dependent now cause rejected? to be true on the response and the
+  rejection messages are included.
+
 ## 0.2.3 (Feb 02, 2018) ##
 
 * Add helpers for extracting the group number and plan number from either a

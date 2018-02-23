@@ -24,4 +24,17 @@ RSpec.describe "UHC - Rejected", type: :eligibility_response do
     include_examples "rejected"
   end
 
+  context "Invalid Member ID for dependent" do
+    let(:expected_rejections) {[
+      ["Invalid/Missing Patient ID", "Please Correct and Resubmit"],
+      ["Invalid/Missing Patient Name", "Please Correct and Resubmit"],
+      ["Patient Birth Date Does Not Match That for the Patient on the Database", "Please Correct and Resubmit"]
+    ]}
+
+    # This trace has _two_ numbers, but one _id_ and we don't handle that.  The
+    # traces are only included if the count of ids matches the count of numbers
+    let(:trace_number) {nil}
+    let(:file) {"uhc/rejection-3.xml"}
+    include_examples "rejected"
+  end
 end

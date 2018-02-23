@@ -208,7 +208,7 @@ module Trizetto
           #
           # @return [String] - a number that can be given to support for help with this request
           def trace_number(trace_id="99Trizetto")
-            patient&.trace_number(trace_id)
+            [subscriber, dependent].compact.map {|p| p.trace_number(trace_id) }.compact.first
           end
         end
       end

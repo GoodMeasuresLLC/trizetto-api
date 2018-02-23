@@ -6,8 +6,6 @@ module Trizetto
         # The subscriber is who holds the insurance.  They may be the patient, or
         # they may have dependents who are the patients.
         class Subscriber < Patient
-          prepend Rejectable
-
           def initialize(raw_hash = {})
             # If we are in subscriber / depdent relationship, we get back subscribername
             # instead of patientname (as the subscriber is _not_ the patient).  For

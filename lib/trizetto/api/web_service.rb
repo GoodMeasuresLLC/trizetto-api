@@ -18,6 +18,8 @@ module Trizetto
           # API maybe case sensitive - im not sure
           convert_request_keys_to: :none,
 
+          ssl_version:  :TLSv1_2,
+
           # Lots of PHI, so lets not log anything
           log: false,
         }.merge(options))
