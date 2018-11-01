@@ -21,6 +21,14 @@ RSpec.describe "BCBS - Rejected", type: :eligibility_response do
 
     include_examples "rejected"
   end
+
+  context "Invalid NPI" do
+    let(:file) {"bcbs-ma/rejection-invalid-npi.xml"}
+
+    let(:rejection_reason) {"Invalid/Missing Referring Provider Identification Number"}
+
+    include_examples "rejected"
+  end
 end
 
 

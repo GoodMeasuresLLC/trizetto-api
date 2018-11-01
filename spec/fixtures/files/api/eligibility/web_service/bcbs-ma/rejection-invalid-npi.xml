@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+   <infosource>
+      <transactionid>ad92eda34e449ab7b2c242b1a24f7e</transactionid>
+      <payername>BLUE CROSS BLUE SHIELD OF MASSACHUSETTS</payername>
+      <payerid>700</payerid>
+   </infosource>
+   <inforeceiver>
+      <rejection>
+         <rejectreason>Invalid/Missing Referring Provider Identification Number</rejectreason>
+         <followupaction>Please Correct and Resubmit</followupaction>
+      </rejection>
+      <providername>
+         <last>NAUGHTYMEASURES</last>
+      </providername>
+      <npi>7197847241</npi>
+   </inforeceiver>
+   <subscriber>
+      <trace_number>999999999</trace_number>
+      <trace_id>99TRIZETTO</trace_id>
+      <date>
+         <datequalifier>Plan</datequalifier>
+         <date-of-service>20181101</date-of-service>
+      </date>
+      <patientname>
+         <first>MICKEY</first>
+         <last>MOUSE</last>
+      </patientname>
+      <sex>Female</sex>
+      <date-of-birth>19281118</date-of-birth>
+      <benefit>
+         <info>Cannot Process</info>
+      </benefit>
+   </subscriber>
+</eligibilityresponse>
