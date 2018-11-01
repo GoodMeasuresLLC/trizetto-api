@@ -33,6 +33,11 @@ RSpec.describe Trizetto::Api::Eligibility::WebService do
       ]
     }
 
+    let(:enrollment_required_errors) {[
+      # invalid NPI to medicare
+      "soap-responses/validation-failure-invalid-npi.xml"
+    ]}
+
     let(:system_errors) {
       [
         # I don't remeber what happened here - maybe no provider last name.  Whatever
@@ -94,6 +99,17 @@ RSpec.describe Trizetto::Api::Eligibility::WebService do
           response = inquiry_response(file)
           expect(response).to_not be_success
           expect(response.success_code).to eq('ValidationFailure')
+          expect(response.transaction_id).to be_blank
+          expect(response.payer_id).to be_blank
+          expect(response.payer_name).to be_blank
+        end
+      end
+
+      it "enrollment-required-failures" do
+        enrollment_required_errors.each do |file|
+          response = inquiry_response(file)
+          expect(response).to_not be_success
+          expect(response.success_code).to eq('ProviderEnrollmentRequired')
           expect(response.transaction_id).to be_blank
           expect(response.payer_id).to be_blank
           expect(response.payer_name).to be_blank
@@ -220,6 +236,24 @@ RSpec.describe Trizetto::Api::Eligibility::WebService do
     end
 
 
+    # This one was an invalid NPI submitted to medicare
+    context "soap-responses/validation-failure-invalid-npi" do
+      let(:file) {"soap-responses/validation-failure-invalid-npi.xml"}
+      let(:response) {inquiry_response(file)}
+
+      it do
+        expect(response.extra_processing_info.messages).to match_array(['The NPI submitted is not enrolled to check eligibility for this payer. Please contact TriZetto Provider Solutions at 1-800-556-2231.'])
+        expect(response.extra_processing_info.to_h).to eq({
+           messages: ['The NPI submitted is not enrolled to check eligibility for this payer. Please contact TriZetto Provider Solutions at 1-800-556-2231.'],
+           validation_failures: [
+              {
+                affected_fields: [],
+                message: "The NPI submitted is not enrolled to check eligibility for this payer. Please contact TriZetto Provider Solutions at 1-800-556-2231."
+              },
+            ]}
+          )
+      end
+    end
 
 
     context "soap-responses/system-error-1.xml" do

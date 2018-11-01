@@ -8,7 +8,7 @@ RSpec.describe "BMC - Rejected", type: :eligibility_response do
       ["Invalid/Missing Subscriber/Insured Name", follow_up_action],
       ["Invalid/Missing Date-of-Birth", follow_up_action],
     ]}
-      let(:file) {"boston-medical-center/rejection-1.xml"}
+    let(:file) {"boston-medical-center/rejection-1.xml"}
     include_examples "rejected"
   end
 

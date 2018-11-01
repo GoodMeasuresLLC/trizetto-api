@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+   <infosource>
+      <transactionid>069d0b6a0641fc84303e6af2499d5e</transactionid>
+      <payername>AETNA INC</payername>
+      <payerid>953402799</payerid>
+   </infosource>
+   <inforeceiver>
+      <rejection>
+         <rejectreason>Invalid/Missing Provider Identification</rejectreason>
+         <followupaction>Please Correct and Resubmit</followupaction>
+      </rejection>
+      <providername>
+         <last>NAUGHTYMEASURES</last>
+      </providername>
+      <npi>7197847241</npi>
+   </inforeceiver>
+   <subscriber>
+      <trace_number>999999999</trace_number>
+      <trace_id>99Trizetto</trace_id>
+      <date>
+         <datequalifier>Service</datequalifier>
+         <date-of-service>20181101</date-of-service>
+      </date>
+      <patientname>
+         <first>MICKEY</first>
+         <last>MOUSE</last>
+      </patientname>
+      <sex>Female</sex>
+      <date-of-birth>19281118</date-of-birth>
+   </subscriber>
+</eligibilityresponse>

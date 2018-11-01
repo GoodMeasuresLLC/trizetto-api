@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+   <infosource>
+      <transactionid>d74036e36641228c7f11800b9ae493</transactionid>
+      <payername>AETNA INC</payername>
+      <payerid>953402799</payerid>
+   </infosource>
+   <inforeceiver>
+      <rejection>
+         <rejectreason>Invalid/Missing Provider Identification</rejectreason>
+         <followupaction>Please Correct and Resubmit</followupaction>
+      </rejection>
+      <providername>
+         <last>KNIGHTDALE FAMILY MEDICINE</last>
+      </providername>
+      <npi>1154305549</npi>
+   </inforeceiver>
+   <subscriber>
+      <trace_number>1319724445</trace_number>
+      <trace_id>99Trizetto</trace_id>
+      <date>
+         <datequalifier>Service</datequalifier>
+         <date-of-service>20181101</date-of-service>
+      </date>
+      <patientname>
+         <first>XXXXX</first>
+         <last>XXXXX</last>
+      </patientname>
+      <patientid>WXXXX XXXXX</patientid>
+      <sex>Female</sex>
+      <date-of-birth>19690525</date-of-birth>
+   </subscriber>
+</eligibilityresponse>

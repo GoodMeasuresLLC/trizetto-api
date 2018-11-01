@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+   <infosource>
+      <contact-info>
+         <communicationnumberqualifier>Telephone</communicationnumberqualifier>
+         <communicationnumber>8007084414</communicationnumber>
+      </contact-info>
+      <transactionid>f164fb804f4903982b0261055d9661</transactionid>
+      <payername>HARVARD PILGRIM HEALTH CARE</payername>
+      <payerid>10376</payerid>
+   </infosource>
+   <inforeceiver>
+      <rejection>
+         <rejectreason>Invalid/Missing Provider Identification</rejectreason>
+         <followupaction>Please Correct and Resubmit</followupaction>
+      </rejection>
+      <providername>
+         <last>NAUGHTYMEASURES</last>
+      </providername>
+      <npi>7197847241</npi>
+   </inforeceiver>
+   <subscriber>
+      <trace_number>99999999</trace_number>
+      <trace_id>9MEDDATACO</trace_id>
+      <trace_number>99999999</trace_number>
+      <trace_id>99Trizetto</trace_id>
+      <date>
+         <datequalifier>Plan</datequalifier>
+         <date-of-service>20181101</date-of-service>
+      </date>
+      <patientname>
+         <first>MICKEY</first>
+         <last>MOUSE</last>
+      </patientname>
+      <patientid>MOUSE119</patientid>
+      <sex>Female</sex>
+      <date-of-birth>19281118</date-of-birth>
+   </subscriber>
+</eligibilityresponse>

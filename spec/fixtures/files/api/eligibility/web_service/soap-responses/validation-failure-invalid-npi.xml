@@ -1,0 +1,56 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DoInquiryResponse xmlns="GatewayEDI.WebServices">
+      <DoInquiryResult>
+        <ExtraProcessingInfo>
+          <AllMessages>
+            <string>The NPI submitted is not enrolled to check eligibility for this payer. Please contact TriZetto Provider Solutions at 1-800-556-2231.</string>
+          </AllMessages>
+          <Failures>
+            <ValidationFailure>
+              <AffectedFields>
+                <string xsi:nil="true"/>
+              </AffectedFields>
+              <Message>The NPI submitted is not enrolled to check eligibility for this payer. Please contact TriZetto Provider Solutions at 1-800-556-2231.</Message>
+            </ValidationFailure>
+          </Failures>
+        </ExtraProcessingInfo>
+        <SuccessCode>ProviderEnrollmentRequired</SuccessCode>
+        <OriginalInquiry>
+          <Parameters>
+            <MyNameValue>
+              <Name>ProviderLastName</Name>
+              <Value>NaughtyMeasures</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>NPI</Name>
+              <Value>7197847241</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredFirstName</Name>
+              <Value>Mickey</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredLastName</Name>
+              <Value>Mouse</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuredDob</Name>
+              <Value>19281118</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>InsuranceNum</Name>
+              <Value>MOUSE1</Value>
+            </MyNameValue>
+            <MyNameValue>
+              <Name>GediPayerId</Name>
+              <Value>00523</Value>
+            </MyNameValue>
+          </Parameters>
+          <ResponseDataType>Xml</ResponseDataType>
+        </OriginalInquiry>
+      </DoInquiryResult>
+    </DoInquiryResponse>
+  </soap:Body>
+</soap:Envelope>

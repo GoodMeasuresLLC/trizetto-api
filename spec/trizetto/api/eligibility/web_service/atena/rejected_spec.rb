@@ -14,6 +14,22 @@ RSpec.describe "Aetna - Rejected", type: :eligibility_response do
     include_examples "rejected"
   end
 
+
+  context "Invalid NPI" do
+    let(:file) {"aetna/rejection-invalid-npi-1.xml"}
+    let(:rejection_reason) {"Invalid/Missing Provider Identification"}
+
+    include_examples "rejected"
+  end
+
+  context "Invalid NPI" do
+    let(:file) {"aetna/rejection-invalid-npi-2.xml"}
+    let(:rejection_reason) {"Invalid/Missing Provider Identification"}
+    let(:trace_number) {'1319724445'}
+
+    include_examples "rejected"
+  end
+
 end
 
 
