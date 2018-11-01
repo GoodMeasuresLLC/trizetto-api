@@ -57,8 +57,8 @@ response.active_coverage_for?(service_type_code = "30")  #=> true | false
 require 'trizetto/api'
 
 Trizetto::Api.configure do |config|
-  config.username = 'Not the real username'
-  config.password = 'Super Top Secret'
+  config.username = ENV['TRIZETTO_USERNAME']
+  config.password = ENV['TRIZETTO_PASSWORD']
 end
 
 client = Trizetto::Api::Eligibility::WebService::Client.new({
@@ -133,8 +133,8 @@ X12/270 requests and parse X12/271 responses.
 require 'trizetto/api'
 
 Trizetto::Api.configure do |config|
-  config.username = 'Not the real username'
-  config.password = 'Super Top Secret'
+  config.username = ENV['TRIZETTO_USERNAME']
+  config.password = ENV['TRIZETTO_PASSWORD']
 end
 
 
@@ -148,8 +148,8 @@ client.check_eligibility(payload: x12_message)
 require 'trizetto/api'
 
 Trizetto::Api.configure do |config|
-  config.username = 'Not the real username'
-  config.password = 'Super Top Secret'
+  config.username = ENV['TRIZETTO_USERNAME']
+  config.password = ENV['TRIZETTO_PASSWORD']
 end
 
 client = Trizetto::Api::PayerList::WebService.new({
@@ -169,8 +169,8 @@ This API times out or errors out on the Trizetto server.  But you may get it to 
 require 'trizetto/api'
 
 Trizetto::Api.configure do |config|
-  config.username = 'Not the real username'
-  config.password = 'Super Top Secret'
+  config.username = ENV['TRIZETTO_USERNAME']
+  config.password = ENV['TRIZETTO_PASSWORD']
 end
 
 client = Trizetto::Api::PayerList::WebService.new({
