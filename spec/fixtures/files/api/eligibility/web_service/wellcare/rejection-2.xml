@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibilityresponse>
+  <infosource>
+    <transactionid>41aca5c59e4b299dcb35bd4332f738</transactionid>
+    <payername>WELLCARE</payername>
+    <payerid>14163</payerid>
+    <rejection>
+      <rejectreason>Unable to Respond at Current Time</rejectreason>
+      <followupaction>Resubmission Allowed</followupaction>
+    </rejection>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES, INC.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace-number>999999999</trace-number>
+    <trace-id>99Trizetto</trace-id>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20190307-20190307</date-of-service>
+    </date>
+    <patientname>
+      <first>DENNY</first>
+      <last>HAND</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19730825</date-of-birth>
+  </subscriber>
+</eligibilityresponse>
