@@ -1,0 +1,38 @@
+<eligibilityresponse>
+  <infosource>
+    <transactionid>33ec1aed0346b98496973a9d12b8c9</transactionid>
+    <payername>WELLCARE HEALTH PLANS</payername>
+    <payerid>14163</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES, INC.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace-number>9999999999</trace-number>
+    <trace-id>99TRIZETTO</trace-id>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20190307-20190307</date-of-service>
+    </date>
+    <patientname>
+      <first>GABRIELA</first>
+      <last>HALVORSON</last>
+      <patientaddress>2242 ELISHA DALE</patientaddress>
+      <patientcity>WEST JERLENE</patientcity>
+      <patientstate>CA</patientstate>
+      <patientzip>91855</patientzip>
+    </patientname>
+    <patientid>20461738</patientid>
+    <sex>Female</sex>
+    <date-of-birth>19841111</date-of-birth>
+    <benefit>
+      <info>Inactive</info>
+      <servicetype>Health Benefit Plan Coverage</servicetype>
+      <servicetypecode>30</servicetypecode>
+      <message>For additional benefit information regarding this member please contact our Customer Service Team.</message>
+    </benefit>
+  </subscriber>
+</eligibilityresponse>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<eligibilityresponse>
+  <!-- Account didn't exist -->
+  <infosource>
+    <transactionid>75805a99834f6688d277a47f0332f7</transactionid>
+    <payername>WELLCARE HEALTH PLANS</payername>
+    <payerid>14163</payerid>
+  </infosource>
+  <inforeceiver>
+    <providername>
+      <last>GOOD MEASURES, INC.</last>
+    </providername>
+    <npi>1427487917</npi>
+  </inforeceiver>
+  <subscriber>
+    <trace-number>999999999</trace-number>
+    <trace-id>99TRIZETTO</trace-id>
+    <date>
+      <datequalifier>Plan</datequalifier>
+      <date-of-service>20190307-20190307</date-of-service>
+    </date>
+    <patientname>
+      <first>MICKEY</first>
+      <last>MOUSE</last>
+    </patientname>
+    <sex>Female</sex>
+    <date-of-birth>19281118</date-of-birth>
+    <rejection>
+      <rejectreason>Subscriber/Insured Not Found</rejectreason>
+      <followupaction>Please Correct and Resubmit</followupaction>
+    </rejection>
+  </subscriber>
+</eligibilityresponse>
