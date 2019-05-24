@@ -41,9 +41,33 @@ Or install it yourself as:
 
 ## Usage
 
-
 ### Use the Eligibility Web Service with an XML payload to check eligibility in realtime
 
+#### Fields
+
+The Eligibility Web Service is poorly documented in the [Eligibility Web Service Companion Guide](https://mytools.gatewayedi.com/Help/documents/Eligibility/Realtime%20Eligibility%20Webservice%20Companion%20Guide.pdf).
+
+The fields listed below are copied from the documentation and can be used to perform eligibility checks.
+
+|Field| Description | Requirement |
+|--|--|--|
+| `GediPayerID` | The GEDI specific payer identifier | Always |
+| `ProviderFirstName`  | Provider First Name | Required when individual provider name is sent in the inquiry |
+| `ProviderLastName`   | Provider Last Name/Organization Name | |
+| `NPI`                | National Provider Identifier  | |
+| `InsuredFirstName`   | Subscriber First Name | Required when the patient is the subscriber or if the Payer requires this information to identify the patient. |
+| `InsuredLastName`    | Subscriber Last Name | Required when the patient is the subscriber or if the Payer requires this information to identify the patient |
+| `InsuranceNum`       |  | Required when the payer needs this information to identify patient. |
+| `InsuredDob`         | Subscriber Date of birth (YYYYMMDD) | Required when the payer needs this information to identify patient. |
+| `InsuredGender`      | Subscriber Gender (M) or (F) | Required when the payer needs this information to identify patient. |
+| `ServiceTypeCode`    | Health Care Financing Administration Common Procedural Coding System Code | |
+| `DependentFirstName` | Dependent First Name | |
+| `DependentLastName`  | Dependent Last Name | |
+| `DependentDob`       | Dependent Date of Birth (YYYYMMDD) | |
+| `DependentGender`    | Dependent Gender (M) or (F) | |
+| `DateOfService`      | Date of service to check for eligibiltiy (YYYYMMDD). **This field is not documented**  | |
+
+#### Example
 This uses name/value pairs in a request and returns an XML docunment as a response.
 
 To simply check if the patient is covered by a health plan
@@ -76,6 +100,8 @@ response = client.do_inquiry({
   'InsuredDob':       '19281118',
   'GediPayerId':      'N4222',
 })
+
+
 
 # Were there validation errors with the request?
 response.success?                                          # => false
@@ -163,7 +189,7 @@ response = client.ping
 
 ### Fetch the Payer List
 
-This API times out or errors out on the Trizetto server.  But you may get it to work.
+**This API times out or errors out on the Trizetto server**.  But you may get it to work.
 
 ```ruby
 require 'trizetto/api'
